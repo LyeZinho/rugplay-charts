@@ -2,7 +2,7 @@
 
 Graficos, relatórios e predições para moedas do RugPlay.
 
-[RugPlay](www.rugplay.com)
+[https://rugplay.com/](https://rugplay.com/)
 
 ## Propósito
 Este projeto coleta, analisa e visualiza dados de moedas do RugPlay, permitindo gerar relatórios, gráficos, e treinar modelos de IA para prever movimentações de mercado.
