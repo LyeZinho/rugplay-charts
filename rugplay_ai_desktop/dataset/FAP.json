@@ -1,0 +1,452 @@
+[
+  {
+    "date": "2025-07-17",
+    "coin": {
+      "id": 3125,
+      "name": "failedAustralianPainter",
+      "symbol": "FAP",
+      "icon": "coins/fap.webp",
+      "currentPrice": 0.0494026,
+      "marketCap": 49402597.84,
+      "volume24h": 79682.39,
+      "change24h": 32.7253,
+      "poolCoinAmount": 4499094.4094367,
+      "poolBaseCurrencyAmount": 222266.95174538,
+      "circulatingSupply": 1000000000,
+      "initialSupply": 1000000000,
+      "isListed": true,
+      "createdAt": "2025-06-25T09:44:59.586Z",
+      "creatorId": 8863,
+      "creatorName": "dyslexic idiot",
+      "creatorUsername": "dyslexia",
+      "creatorBio": "byslexia ",
+      "creatorImage": "avatars/8863.webp",
+      "tradingUnlocksAt": null,
+      "isLocked": true
+    },
+    "candlestickData": [
+      {
+        "time": 1750809600,
+        "open": 1e-06,
+        "high": 1.44e-06,
+        "low": 1e-06,
+        "close": 1e-06
+      },
+      {
+        "time": 1750896000,
+        "open": 1e-06,
+        "high": 4e-06,
+        "low": 1e-06,
+        "close": 3.31e-06
+      },
+      {
+        "time": 1750982400,
+        "open": 3.31e-06,
+        "high": 8.95e-05,
+        "low": 3.31e-06,
+        "close": 8.629e-05
+      },
+      {
+        "time": 1751068800,
+        "open": 8.629e-05,
+        "high": 0.00047208,
+        "low": 8.629e-05,
+        "close": 0.00014524
+      },
+      {
+        "time": 1751155200,
+        "open": 0.00014524,
+        "high": 0.00028404,
+        "low": 0.00014524,
+        "close": 0.00028236
+      },
+      {
+        "time": 1751241600,
+        "open": 0.00028236,
+        "high": 0.00037263,
+        "low": 0.00028236,
+        "close": 0.00037263
+      },
+      {
+        "time": 1751328000,
+        "open": 0.00037263,
+        "high": 0.00071432,
+        "low": 0.00015427,
+        "close": 0.00015427
+      },
+      {
+        "time": 1751414400,
+        "open": 0.00015427,
+        "high": 0.00051395,
+        "low": 0.00015427,
+        "close": 0.00051395
+      },
+      {
+        "time": 1751500800,
+        "open": 0.00051395,
+        "high": 0.000964,
+        "low": 0.00050037,
+        "close": 0.0008102
+      },
+      {
+        "time": 1751587200,
+        "open": 0.0008102,
+        "high": 0.00098999,
+        "low": 0.0008102,
+        "close": 0.00098999
+      },
+      {
+        "time": 1751673600,
+        "open": 0.00098999,
+        "high": 0.00122249,
+        "low": 0.00098999,
+        "close": 0.00122249
+      },
+      {
+        "time": 1751760000,
+        "open": 0.00122249,
+        "high": 0.00180355,
+        "low": 0.00122249,
+        "close": 0.00180355
+      },
+      {
+        "time": 1751846400,
+        "open": 0.00180355,
+        "high": 0.00240202,
+        "low": 0.00180355,
+        "close": 0.00240202
+      },
+      {
+        "time": 1751932800,
+        "open": 0.00240202,
+        "high": 0.00277946,
+        "low": 0.00218282,
+        "close": 0.00277946
+      },
+      {
+        "time": 1752019200,
+        "open": 0.00277946,
+        "high": 0.00368699,
+        "low": 0.00277946,
+        "close": 0.00368699
+      },
+      {
+        "time": 1752105600,
+        "open": 0.00368699,
+        "high": 0.07758823,
+        "low": 0.00368699,
+        "close": 0.00698004
+      },
+      {
+        "time": 1752192000,
+        "open": 0.00698004,
+        "high": 0.01005843,
+        "low": 0.00698004,
+        "close": 0.00999145
+      },
+      {
+        "time": 1752278400,
+        "open": 0.00999145,
+        "high": 0.01191834,
+        "low": 0.00928771,
+        "close": 0.00928771
+      },
+      {
+        "time": 1752364800,
+        "open": 0.00928771,
+        "high": 0.01173088,
+        "low": 0.00928771,
+        "close": 0.01173088
+      },
+      {
+        "time": 1752451200,
+        "open": 0.01173088,
+        "high": 0.01524528,
+        "low": 0.01173088,
+        "close": 0.0152445
+      },
+      {
+        "time": 1752537600,
+        "open": 0.0152445,
+        "high": 0.10723569,
+        "low": 0.0152445,
+        "close": 0.01775964
+      },
+      {
+        "time": 1752624000,
+        "open": 0.01775964,
+        "high": 0.04329697,
+        "low": 0.01775964,
+        "close": 0.04329697
+      },
+      {
+        "time": 1752710400,
+        "open": 0.04329697,
+        "high": 0.0504497,
+        "low": 0.04329697,
+        "close": 0.0494026
+      }
+    ],
+    "volumeData": [
+      {
+        "time": 1750809600,
+        "volume": 786.2593885399999
+      },
+      {
+        "time": 1750896000,
+        "volume": 1181.9917731
+      },
+      {
+        "time": 1750982400,
+        "volume": 9619.36724651
+      },
+      {
+        "time": 1751068800,
+        "volume": 26621.56473764
+      },
+      {
+        "time": 1751155200,
+        "volume": 4852
+      },
+      {
+        "time": 1751241600,
+        "volume": 2500
+      },
+      {
+        "time": 1751328000,
+        "volume": 31330.94114076
+      },
+      {
+        "time": 1751414400,
+        "volume": 12597.719662380001
+      },
+      {
+        "time": 1751500800,
+        "volume": 16565.03192531
+      },
+      {
+        "time": 1751587200,
+        "volume": 3000
+      },
+      {
+        "time": 1751673600,
+        "volume": 3500
+      },
+      {
+        "time": 1751760000,
+        "volume": 7504.1701697
+      },
+      {
+        "time": 1751846400,
+        "volume": 7457.80194781
+      },
+      {
+        "time": 1751932800,
+        "volume": 10287.79751263
+      },
+      {
+        "time": 1752019200,
+        "volume": 8000
+      },
+      {
+        "time": 1752105600,
+        "volume": 665177.0039111099
+      },
+      {
+        "time": 1752192000,
+        "volume": 30079.59214432
+      },
+      {
+        "time": 1752278400,
+        "volume": 32457.115882870003
+      },
+      {
+        "time": 1752364800,
+        "volume": 12141.78525794
+      },
+      {
+        "time": 1752451200,
+        "volume": 15165.779108969999
+      },
+      {
+        "time": 1752537600,
+        "volume": 419204.32155455
+      },
+      {
+        "time": 1752624000,
+        "volume": 74813.92882637
+      },
+      {
+        "time": 1752710400,
+        "volume": 19212.29321007
+      }
+    ],
+    "holders": [
+      {
+        "rank": 1,
+        "userId": 8863,
+        "username": "dyslexia",
+        "name": "dyslexic idiot",
+        "image": "avatars/8863.webp",
+        "quantity": 772297359.0922076,
+        "percentage": 77.22973590922075,
+        "liquidationValue": 110854.94585797148
+      },
+      {
+        "rank": 2,
+        "userId": 11054,
+        "username": "emi",
+        "name": "Emilio Hare",
+        "image": "avatars/114598274517643607076.webp",
+        "quantity": 77426042.8738507,
+        "percentage": 7.7426042873850704,
+        "liquidationValue": 110854.94585797148
+      },
+      {
+        "rank": 3,
+        "userId": 11037,
+        "username": "rubesalex09",
+        "name": "Rueben Alexander",
+        "image": "avatars/101674544513263683978.webp",
+        "quantity": 60653632.43040889,
+        "percentage": 6.065363243040888,
+        "liquidationValue": 110854.94585797148
+      },
+      {
+        "rank": 4,
+        "userId": 10934,
+        "username": "cool_wolf1639",
+        "name": "Joseph mace",
+        "image": "avatars/112839596024161950479.webp",
+        "quantity": 60582313.81336585,
+        "percentage": 6.058231381336585,
+        "liquidationValue": 110854.94585797148
+      },
+      {
+        "rank": 5,
+        "userId": 11044,
+        "username": "kind_seal3070",
+        "name": "William Matthews",
+        "image": "avatars/111453227744439719822.webp",
+        "quantity": 20141274.53379408,
+        "percentage": 2.014127453379408,
+        "liquidationValue": 110854.94585797148
+      },
+      {
+        "rank": 6,
+        "userId": 300,
+        "username": "itoj",
+        "name": "ItsThatOneJack",
+        "image": "avatars/108059826555905214658.png",
+        "quantity": 1385634.03813915,
+        "percentage": 0.138563403813915,
+        "liquidationValue": 52335.57616727412
+      },
+      {
+        "rank": 7,
+        "userId": 12183,
+        "username": "nilepurple",
+        "name": "Methyl Anthranilate",
+        "image": "avatars/116395466529785195539.webp",
+        "quantity": 1081786.94635306,
+        "percentage": 0.108178694635306,
+        "liquidationValue": 43083.784025330126
+      },
+      {
+        "rank": 8,
+        "userId": 6652,
+        "username": "savvyscripter",
+        "name": "SavvyScripter",
+        "image": "avatars/6652.webp",
+        "quantity": 761927.06181236,
+        "percentage": 0.076192706181236,
+        "liquidationValue": 32189.795538154314
+      },
+      {
+        "rank": 9,
+        "userId": 9903,
+        "username": "inyourface3445",
+        "name": "Inyourface3445",
+        "image": "avatars/102363924626390028620.webp",
+        "quantity": 576325.64487493,
+        "percentage": 0.05763256448749301,
+        "liquidationValue": 25238.924646290165
+      },
+      {
+        "rank": 10,
+        "userId": 7090,
+        "username": "calm_tiger3487",
+        "name": "somalian man",
+        "image": "avatars/110501408681208786650.webp",
+        "quantity": 234075.63383769,
+        "percentage": 0.023407563383769,
+        "liquidationValue": 10992.05757141544
+      },
+      {
+        "rank": 11,
+        "userId": 14322,
+        "username": "icbm",
+        "name": "ICBM",
+        "image": "avatars/105832551898801125390.webp",
+        "quantity": 175517.93775777,
+        "percentage": 0.017551793775777,
+        "liquidationValue": 8345.46997794765
+      },
+      {
+        "rank": 12,
+        "userId": 9878,
+        "username": "ewwww",
+        "name": "ew",
+        "image": "avatars/9878.webp",
+        "quantity": 162222.29206262,
+        "percentage": 0.016222229206262,
+        "liquidationValue": 7735.293838822312
+      },
+      {
+        "rank": 13,
+        "userId": 13321,
+        "username": "brave_fox3891",
+        "name": "TOMZ NL",
+        "image": "avatars/102574397549296844214.webp",
+        "quantity": 11587.11582629,
+        "percentage": 0.001158711582629,
+        "liquidationValue": 570.9631459915545
+      },
+      {
+        "rank": 14,
+        "userId": 5732,
+        "username": "dingdong",
+        "name": "DingDong",
+        "image": "avatars/110098534455800648687.webp",
+        "quantity": 9495.58939267,
+        "percentage": 0.000949558939267,
+        "liquidationValue": 468.1187932108878
+      },
+      {
+        "rank": 15,
+        "userId": 14082,
+        "username": "kind_lion5361",
+        "name": "Lev Se",
+        "image": "avatars/110635469428897924924.webp",
+        "quantity": 1708.81405287,
+        "percentage": 0.000170881405287,
+        "liquidationValue": 84.38780185917858
+      },
+      {
+        "rank": 16,
+        "userId": 11600,
+        "username": "bright_whale9839",
+        "name": "Lol1 Lol1",
+        "image": "avatars/101038756475487996247.webp",
+        "quantity": 1.77282628,
+        "percentage": 1.7728262800000001e-07,
+        "liquidationValue": 0.08758218926959671
+      }
+    ],
+    "poolInfo": {
+      "coinAmount": 4499094.4094367,
+      "baseCurrencyAmount": 222266.95174538,
+      "currentPrice": 0.0494026
+    }
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "date": "2025-07-17",
+    "coin": {
+      "id": 6450,
+      "name": "four",
+      "symbol": "FOUR",
+      "icon": "coins/four.webp",
+      "currentPrice": 16.19408502,
+      "marketCap": 16194085020.21,
+      "volume24h": 14223.09,
+      "change24h": 0.4354,
+      "poolCoinAmount": 248497.36759568,
+      "poolBaseCurrencyAmount": 4024187.49814332,
+      "circulatingSupply": 1000000000,
+      "initialSupply": 1000000000,
+      "isListed": true,
+      "createdAt": "2025-07-09T13:59:47.984Z",
+      "creatorId": 14037,
+      "creatorName": "sex",
+      "creatorUsername": "six",
+      "creatorBio": "esx",
+      "creatorImage": "avatars/14037.webp",
+      "tradingUnlocksAt": null,
+      "isLocked": true
+    },
+    "candlestickData": [
+      {
+        "time": 1752019200,
+        "open": 1e-06,
+        "high": 1.44e-06,
+        "low": 1e-06,
+        "close": 1.38e-06
+      },
+      {
+        "time": 1752537600,
+        "open": 1.38e-06,
+        "high": 16.17651944,
+        "low": 1e-06,
+        "close": 16.15641566
+      },
+      {
+        "time": 1752624000,
+        "open": 16.15802351,
+        "high": 16.16718929,
+        "low": 16.12387387,
+        "close": 16.14367614
+      },
+      {
+        "time": 1752710400,
+        "open": 16.19132545,
+        "high": 16.19488987,
+        "low": 16.19132545,
+        "close": 16.19408502
+      }
+    ],
+    "volumeData": [
+      {
+        "time": 1752019200,
+        "volume": 223.52941084
+      },
+      {
+        "time": 1752537600,
+        "volume": 4059108.6066498705
+      },
+      {
+        "time": 1752624000,
+        "volume": 11097.025698329999
+      },
+      {
+        "time": 1752710400,
+        "volume": 6468.118597279999
+      }
+    ],
+    "holders": [
+      {
+        "rank": 1,
+        "userId": 1068,
+        "username": "alyx",
+        "name": "Alyx",
+        "image": "avatars/116541791193726030507.jpg",
+        "quantity": 999750953.7588496,
+        "percentage": 99.97509537588496,
+        "liquidationValue": 2007050.90759529
+      },
+      {
+        "rank": 2,
+        "userId": 1077,
+        "username": "wilsoniirip",
+        "name": "WilsonIIRIP",
+        "image": "avatars/107187772089685990656.jpg",
+        "quantity": 310.90238898,
+        "percentage": 3.1090238898000004e-05,
+        "liquidationValue": 5028.488429879304
+      },
+      {
+        "rank": 3,
+        "userId": 14722,
+        "username": "puyodead1",
+        "name": "Puyodead1",
+        "image": "avatars/117604034544937156266.webp",
+        "quantity": 91.40930838,
+        "percentage": 9.140930838e-06,
+        "liquidationValue": 1479.7457897253335
+      },
+      {
+        "rank": 4,
+        "userId": 4900,
+        "username": "ckya",
+        "name": "CKYA",
+        "image": "avatars/108611310823930135929.webp",
+        "quantity": 62.30321448,
+        "percentage": 6.230321448e-06,
+        "liquidationValue": 1008.6906535853632
+      },
+      {
+        "rank": 5,
+        "userId": 14895,
+        "username": "stupidtrader",
+        "name": "Stupid Trader",
+        "image": "avatars/112933681844845051227.webp",
+        "quantity": 24.756366,
+        "percentage": 2.4756366000000003e-06,
+        "liquidationValue": 400.86675974167883
+      },
+      {
+        "rank": 6,
+        "userId": 14225,
+        "username": "zaza",
+        "name": "titasMitas69",
+        "image": "avatars/14225.webp",
+        "quantity": 18.57078502,
+        "percentage": 1.857078502e-06,
+        "liquidationValue": 300.71439842134714
+      },
+      {
+        "rank": 7,
+        "userId": 14455,
+        "username": "america",
+        "name": "Jack",
+        "image": "avatars/14455.webp",
+        "quantity": 12.49312721,
+        "percentage": 1.2493127210000001e-06,
+        "liquidationValue": 202.3045934070833
+      },
+      {
+        "rank": 8,
+        "userId": 12054,
+        "username": "sunny_deer9618",
+        "name": "edwloh2",
+        "image": "avatars/102731435356905777757.webp",
+        "quantity": 12.49187834,
+        "percentage": 1.249187834e-06,
+        "liquidationValue": 202.28437113342807
+      },
+      {
+        "rank": 9,
+        "userId": 14887,
+        "username": "valdemar_check",
+        "name": "Valdemar_check",
+        "image": "avatars/100057759968272105727.webp",
+        "quantity": 6.19087777,
+        "percentage": 6.190877770000001e-07,
+        "liquidationValue": 100.25310332607478
+      },
+      {
+        "rank": 10,
+        "userId": 14918,
+        "username": "yaboi_v3rt3x",
+        "name": "v3rt3x",
+        "image": "avatars/101383657298674270204.webp",
+        "quantity": 5.00000035,
+        "percentage": 5.000000349999999e-07,
+        "liquidationValue": 80.96880160085857
+      },
+      {
+        "rank": 11,
+        "userId": 14345,
+        "username": "kirbyhasagun",
+        "name": "KirbyHasAGun",
+        "image": "avatars/14345.webp",
+        "quantity": 4.01387604,
+        "percentage": 4.0138760400000007e-07,
+        "liquidationValue": 64.9999999338761
+      },
+      {
+        "rank": 12,
+        "userId": 13850,
+        "username": "janxyxy",
+        "name": "Janxyxy",
+        "image": null,
+        "quantity": 0.61853824,
+        "percentage": 6.1853824e-08,
+        "liquidationValue": 10.016635914333165
+      },
+      {
+        "rank": 13,
+        "userId": 14623,
+        "username": "toka",
+        "name": "toka",
+        "image": "avatars/14623.webp",
+        "quantity": 0.12319383,
+        "percentage": 1.2319383000000002e-08,
+        "liquidationValue": 1.9950103675946593
+      },
+      {
+        "rank": 14,
+        "userId": 14920,
+        "username": "cool_deer9410",
+        "name": "1 2",
+        "image": "avatars/115709292894949440636.webp",
+        "quantity": 4e-08,
+        "percentage": 4e-15,
+        "liquidationValue": 6.477348506450653e-07
+      }
+    ],
+    "poolInfo": {
+      "coinAmount": 248497.36759568,
+      "baseCurrencyAmount": 4024187.49814332,
+      "currentPrice": 16.19408502
+    }
+  }
+]

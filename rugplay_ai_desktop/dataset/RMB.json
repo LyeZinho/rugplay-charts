@@ -1,0 +1,2259 @@
+[
+  {
+    "date": "2025-07-17",
+    "coin": {
+      "id": 4857,
+      "name": "RamblerCOIN",
+      "symbol": "RMB",
+      "icon": "coins/rmb.webp",
+      "currentPrice": 78.59193782,
+      "marketCap": 78591937821.66,
+      "volume24h": 75918.07,
+      "change24h": 1.3952,
+      "poolCoinAmount": 112800.49394696,
+      "poolBaseCurrencyAmount": 8865209.40653229,
+      "circulatingSupply": 1000000000,
+      "initialSupply": 1000000000,
+      "isListed": true,
+      "createdAt": "2025-06-28T20:54:54.926Z",
+      "creatorId": 9665,
+      "creatorName": "Bobert",
+      "creatorUsername": "hobo_the_hob",
+      "creatorBio": "gimme all of this",
+      "creatorImage": "avatars/106759979807523003697.webp",
+      "tradingUnlocksAt": null,
+      "isLocked": true
+    },
+    "candlestickData": [
+      {
+        "time": 1751068800,
+        "open": 1e-06,
+        "high": 15.886066,
+        "low": 1e-06,
+        "close": 15.886066
+      },
+      {
+        "time": 1751155200,
+        "open": 15.90201293,
+        "high": 48.19029323,
+        "low": 15.90201293,
+        "close": 38.78310609
+      },
+      {
+        "time": 1751241600,
+        "open": 38.78310609,
+        "high": 52.04495333,
+        "low": 38.57311167,
+        "close": 40.32923277
+      },
+      {
+        "time": 1751328000,
+        "open": 40.31595495,
+        "high": 55.32564095,
+        "low": 40.06025037,
+        "close": 41.73037762
+      },
+      {
+        "time": 1751414400,
+        "open": 41.73683777,
+        "high": 45.26883853,
+        "low": 41.69686968,
+        "close": 44.28369842
+      },
+      {
+        "time": 1751500800,
+        "open": 44.30100207,
+        "high": 63.74092106,
+        "low": 43.12136083,
+        "close": 43.12136083
+      },
+      {
+        "time": 1751587200,
+        "open": 43.1214265,
+        "high": 77.71817339,
+        "low": 42.58486132,
+        "close": 76.14800445
+      },
+      {
+        "time": 1751673600,
+        "open": 76.21783071,
+        "high": 98.35435347,
+        "low": 76.2060463,
+        "close": 77.60532358
+      },
+      {
+        "time": 1751760000,
+        "open": 77.66700155,
+        "high": 78.40529337,
+        "low": 77.66700155,
+        "close": 78.33244032
+      },
+      {
+        "time": 1751846400,
+        "open": 78.33421044,
+        "high": 80.37003753,
+        "low": 78.05291627,
+        "close": 79.17893522
+      },
+      {
+        "time": 1751932800,
+        "open": 79.2590889,
+        "high": 107.04945982,
+        "low": 78.78966417,
+        "close": 79.91608208
+      },
+      {
+        "time": 1752019200,
+        "open": 79.94290307,
+        "high": 107.96110739,
+        "low": 79.90406896,
+        "close": 80.92974663
+      },
+      {
+        "time": 1752105600,
+        "open": 80.93663779,
+        "high": 84.80473915,
+        "low": 80.92946281,
+        "close": 82.74466493
+      },
+      {
+        "time": 1752192000,
+        "open": 82.74648422,
+        "high": 84.85792483,
+        "low": 80.30203652,
+        "close": 80.30203652
+      },
+      {
+        "time": 1752278400,
+        "open": 80.26502161,
+        "high": 80.26502161,
+        "low": 80.1634009,
+        "close": 80.18709174
+      },
+      {
+        "time": 1752364800,
+        "open": 80.11275251,
+        "high": 80.11438152,
+        "low": 79.56505196,
+        "close": 79.59885524
+      },
+      {
+        "time": 1752451200,
+        "open": 79.77739162,
+        "high": 79.77739162,
+        "low": 79.32582439,
+        "close": 79.32582439
+      },
+      {
+        "time": 1752537600,
+        "open": 79.32540871,
+        "high": 79.32540871,
+        "low": 78.0670896,
+        "close": 78.0670896
+      },
+      {
+        "time": 1752624000,
+        "open": 78.08493844,
+        "high": 78.10278933,
+        "low": 77.51054833,
+        "close": 77.51054833
+      },
+      {
+        "time": 1752710400,
+        "open": 77.59763874,
+        "high": 78.61296944,
+        "low": 77.51054833,
+        "close": 78.59193782
+      }
+    ],
+    "volumeData": [
+      {
+        "time": 1751068800,
+        "volume": 6318422.80570579
+      },
+      {
+        "time": 1751155200,
+        "volume": 10425294.947444683
+      },
+      {
+        "time": 1751241600,
+        "volume": 2594850.625228029
+      },
+      {
+        "time": 1751328000,
+        "volume": 6743123.243883278
+      },
+      {
+        "time": 1751414400,
+        "volume": 1758865.0980788595
+      },
+      {
+        "time": 1751500800,
+        "volume": 6574783.659373099
+      },
+      {
+        "time": 1751587200,
+        "volume": 2584791.6862166594
+      },
+      {
+        "time": 1751673600,
+        "volume": 2494705.4452457796
+      },
+      {
+        "time": 1751760000,
+        "volume": 94168.25907005
+      },
+      {
+        "time": 1751846400,
+        "volume": 590836.1760363599
+      },
+      {
+        "time": 1751932800,
+        "volume": 3536681.0119752605
+      },
+      {
+        "time": 1752019200,
+        "volume": 3072412.0944202505
+      },
+      {
+        "time": 1752105600,
+        "volume": 474623.95599545
+      },
+      {
+        "time": 1752192000,
+        "volume": 473659.24048468005
+      },
+      {
+        "time": 1752278400,
+        "volume": 9602.241203799998
+      },
+      {
+        "time": 1752364800,
+        "volume": 42438.686170140005
+      },
+      {
+        "time": 1752451200,
+        "volume": 40029.612502050004
+      },
+      {
+        "time": 1752537600,
+        "volume": 80186.36066713999
+      },
+      {
+        "time": 1752624000,
+        "volume": 38772.73493037
+      },
+      {
+        "time": 1752710400,
+        "volume": 75463.46365988
+      }
+    ],
+    "holders": [
+      {
+        "rank": 1,
+        "userId": 9665,
+        "username": "hobo_the_hob",
+        "name": "Bobert",
+        "image": "avatars/106759979807523003697.webp",
+        "quantity": 337781945.04041094,
+        "percentage": 33.778194504041096,
+        "liquidationValue": 4421495.418295553
+      },
+      {
+        "rank": 2,
+        "userId": 8388,
+        "username": "dokuu",
+        "name": "awdguagd",
+        "image": "avatars/115877152464946648056.webp",
+        "quantity": 331384760.25826883,
+        "percentage": 33.13847602582688,
+        "liquidationValue": 4421495.418295553
+      },
+      {
+        "rank": 3,
+        "userId": 7614,
+        "username": "noobec",
+        "name": "noobec",
+        "image": "avatars/7614.webp",
+        "quantity": 330701899.804586,
+        "percentage": 33.0701899804586,
+        "liquidationValue": 4421495.418295553
+      },
+      {
+        "rank": 4,
+        "userId": 10949,
+        "username": "thdreams",
+        "name": "TH_Dreams",
+        "image": null,
+        "quantity": 3277.3336487,
+        "percentage": 0.00032773336487,
+        "liquidationValue": 250299.73159048334
+      },
+      {
+        "rank": 5,
+        "userId": 9771,
+        "username": "happy_deer3657",
+        "name": "jandice",
+        "image": "avatars/9771.webp",
+        "quantity": 2560.46961022,
+        "percentage": 0.00025604696102200005,
+        "liquidationValue": 196765.8605972994
+      },
+      {
+        "rank": 6,
+        "userId": 9775,
+        "username": "wild_eagle394",
+        "name": "lilobozz",
+        "image": "avatars/9775.webp",
+        "quantity": 1582.20916247,
+        "percentage": 0.000158220916247,
+        "liquidationValue": 122628.81684839353
+      },
+      {
+        "rank": 7,
+        "userId": 12064,
+        "username": "bob12457",
+        "name": "Bob12457",
+        "image": "avatars/104440486688686105125.webp",
+        "quantity": 991.05907222,
+        "percentage": 9.910590722199999e-05,
+        "liquidationValue": 77210.8823226355
+      },
+      {
+        "rank": 8,
+        "userId": 10659,
+        "username": "kind_bear169",
+        "name": "smth",
+        "image": "avatars/102813489076932585896.webp",
+        "quantity": 746.73798191,
+        "percentage": 7.4673798191e-05,
+        "liquidationValue": 58301.628925576806
+      },
+      {
+        "rank": 9,
+        "userId": 4301,
+        "username": "herd",
+        "name": "herd",
+        "image": "avatars/4301.webp",
+        "quantity": 732.25011378,
+        "percentage": 7.3225011378e-05,
+        "liquidationValue": 57177.78294113837
+      },
+      {
+        "rank": 10,
+        "userId": 11785,
+        "username": "brave_bear9188",
+        "name": "rambler",
+        "image": "avatars/116192193007994406800.webp",
+        "quantity": 717.40342759,
+        "percentage": 7.1740342759e-05,
+        "liquidationValue": 56025.805283945054
+      },
+      {
+        "rank": 11,
+        "userId": 695,
+        "username": "DaBreadKing",
+        "name": "BREAD KING",
+        "image": "avatars/115813982171316415160.png",
+        "quantity": 678.77282171,
+        "percentage": 6.7877282171e-05,
+        "liquidationValue": 53026.983476977795
+      },
+      {
+        "rank": 12,
+        "userId": 10644,
+        "username": "cool_whale1338",
+        "name": "asddsa",
+        "image": null,
+        "quantity": 627.24676599,
+        "percentage": 6.272467659899999e-05,
+        "liquidationValue": 49023.93272686005
+      },
+      {
+        "rank": 13,
+        "userId": 326,
+        "username": "squinkles",
+        "name": "Mr. Squinkles",
+        "image": "avatars/326.webp",
+        "quantity": 579.24926478,
+        "percentage": 5.7924926478e-05,
+        "liquidationValue": 45291.74158795178
+      },
+      {
+        "rank": 14,
+        "userId": 6520,
+        "username": "perplexity",
+        "name": "Perplexity AI",
+        "image": "avatars/6520.webp",
+        "quantity": 378.54051414,
+        "percentage": 3.7854051414000004e-05,
+        "liquidationValue": 29650.729418979958
+      },
+      {
+        "rank": 15,
+        "userId": 7197,
+        "username": "gamerx10398",
+        "name": "Gamerx10398",
+        "image": "avatars/7197.webp",
+        "quantity": 259.49687564,
+        "percentage": 2.5949687564e-05,
+        "liquidationValue": 20347.552888970822
+      },
+      {
+        "rank": 16,
+        "userId": 10737,
+        "username": "grungus",
+        "name": "Grungus",
+        "image": "avatars/110906308574006796003.webp",
+        "quantity": 259.37875706,
+        "percentage": 2.5937875706e-05,
+        "liquidationValue": 20338.312276033685
+      },
+      {
+        "rank": 17,
+        "userId": 7511,
+        "username": "sunny_wolf4024",
+        "name": "x",
+        "image": "avatars/104540313541989588097.webp",
+        "quantity": 258.11345285,
+        "percentage": 2.5811345285e-05,
+        "liquidationValue": 20239.32421232015
+      },
+      {
+        "rank": 18,
+        "userId": 6636,
+        "username": "hotdog",
+        "name": "Fred",
+        "image": "avatars/6636.webp",
+        "quantity": 246.17480886,
+        "percentage": 2.4617480886e-05,
+        "liquidationValue": 19305.22372022085
+      },
+      {
+        "rank": 19,
+        "userId": 12366,
+        "username": "innovator",
+        "name": "no",
+        "image": "avatars/12366.webp",
+        "quantity": 225.13394473,
+        "percentage": 2.2513394473e-05,
+        "liquidationValue": 17658.469161193818
+      },
+      {
+        "rank": 20,
+        "userId": 12508,
+        "username": "wild_deer9939",
+        "name": "Random Furry femboy",
+        "image": "avatars/116975720005506231599.webp",
+        "quantity": 194.51728266,
+        "percentage": 1.9451728266e-05,
+        "liquidationValue": 15261.173260705546
+      },
+      {
+        "rank": 21,
+        "userId": 5108,
+        "username": "cool_wolf8318",
+        "name": "Elijah Hartley",
+        "image": "avatars/109598059049391738003.webp",
+        "quantity": 183.63329716,
+        "percentage": 1.8363329716e-05,
+        "liquidationValue": 14408.640160735697
+      },
+      {
+        "rank": 22,
+        "userId": 12518,
+        "username": "slavewhiper9000",
+        "name": "Womp",
+        "image": "avatars/12518.webp",
+        "quantity": 157.99076972,
+        "percentage": 1.5799076972e-05,
+        "liquidationValue": 12399.433839607984
+      },
+      {
+        "rank": 23,
+        "userId": 9828,
+        "username": "the_bin_laden",
+        "name": "osama",
+        "image": "avatars/111384151892438871322.webp",
+        "quantity": 132.18061029,
+        "percentage": 1.3218061028999999e-05,
+        "liquidationValue": 10376.171416271478
+      },
+      {
+        "rank": 24,
+        "userId": 7210,
+        "username": "yay",
+        "name": "Kusari",
+        "image": "avatars/114413145264211374563.webp",
+        "quantity": 127.97484573,
+        "percentage": 1.2797484573e-05,
+        "liquidationValue": 10046.393246045336
+      },
+      {
+        "rank": 25,
+        "userId": 5124,
+        "username": "eric",
+        "name": "Eric Chi",
+        "image": "avatars/109878632267951549954.webp",
+        "quantity": 125.83335131,
+        "percentage": 1.2583335130999999e-05,
+        "liquidationValue": 9878.467106632888
+      },
+      {
+        "rank": 26,
+        "userId": 9351,
+        "username": "erictheward",
+        "name": "Eric Ward",
+        "image": "avatars/118195279373264688849.webp",
+        "quantity": 124.69090419,
+        "percentage": 1.2469090419e-05,
+        "liquidationValue": 9788.879054671153
+      },
+      {
+        "rank": 27,
+        "userId": 12868,
+        "username": "burn_wallet",
+        "name": "Burn_wattet",
+        "image": "avatars/100421066412379624181.webp",
+        "quantity": 120.90955783,
+        "percentage": 1.2090955782999998e-05,
+        "liquidationValue": 9492.341718625277
+      },
+      {
+        "rank": 28,
+        "userId": 5023,
+        "username": "clever_whale4006",
+        "name": "ervins",
+        "image": "avatars/101530886758516985726.webp",
+        "quantity": 113.29225842,
+        "percentage": 1.1329225842e-05,
+        "liquidationValue": 8894.924426725134
+      },
+      {
+        "rank": 29,
+        "userId": 8994,
+        "username": "ohio",
+        "name": "Ohio Holdings",
+        "image": "avatars/8994.webp",
+        "quantity": 99.67133593,
+        "percentage": 9.967133593e-06,
+        "liquidationValue": 7826.4479297641665
+      },
+      {
+        "rank": 30,
+        "userId": 8529,
+        "username": "aurevant",
+        "name": "AUREVANT",
+        "image": "avatars/8529.webp",
+        "quantity": 91.90307423,
+        "percentage": 9.190307423e-06,
+        "liquidationValue": 7216.960748916492
+      },
+      {
+        "rank": 31,
+        "userId": 43,
+        "username": "Hotment",
+        "name": "Hotment",
+        "image": "avatars/108498437667900307203.png",
+        "quantity": 86.9976442,
+        "percentage": 8.699764419999999e-06,
+        "liquidationValue": 6832.044213553891
+      },
+      {
+        "rank": 32,
+        "userId": 11210,
+        "username": "mystically",
+        "name": "Mystically",
+        "image": "avatars/110944527527861981979.webp",
+        "quantity": 84.80519148,
+        "percentage": 8.480519148e-06,
+        "liquidationValue": 6659.997244717553
+      },
+      {
+        "rank": 33,
+        "userId": 10188,
+        "username": "mrpurplesocks",
+        "name": "MrPurpleSocks",
+        "image": "avatars/115448172599739363721.webp",
+        "quantity": 77.20987649,
+        "percentage": 7.720987648999999e-06,
+        "liquidationValue": 6063.9231677390635
+      },
+      {
+        "rank": 34,
+        "userId": 7940,
+        "username": "cool_seal8977",
+        "name": "SPEED",
+        "image": "avatars/105878147880618688627.webp",
+        "quantity": 76.54754254,
+        "percentage": 7.654754254e-06,
+        "liquidationValue": 6011.939941175282
+      },
+      {
+        "rank": 35,
+        "userId": 9404,
+        "username": "brave_whale919",
+        "name": "Julian Zientkowski",
+        "image": "avatars/100266609082490290049.webp",
+        "quantity": 75.53755917,
+        "percentage": 7.553755916999999e-06,
+        "liquidationValue": 5932.670303560793
+      },
+      {
+        "rank": 36,
+        "userId": 11715,
+        "username": "furtakefrrr",
+        "name": "Marek Keľo",
+        "image": "avatars/117258491665589651721.webp",
+        "quantity": 64.50164055,
+        "percentage": 6.450164055000001e-06,
+        "liquidationValue": 5066.411845089868
+      },
+      {
+        "rank": 37,
+        "userId": 8581,
+        "username": "toclick",
+        "name": "ToClick",
+        "image": "avatars/8581.webp",
+        "quantity": 64.16553297,
+        "percentage": 6.416553297000001e-06,
+        "liquidationValue": 5040.0266042705625
+      },
+      {
+        "rank": 38,
+        "userId": 11078,
+        "username": "anarchist",
+        "name": "anarchist",
+        "image": "avatars/11078.webp",
+        "quantity": 60.75714449,
+        "percentage": 6.0757144489999995e-06,
+        "liquidationValue": 4772.4511613845825
+      },
+      {
+        "rank": 39,
+        "userId": 12958,
+        "username": "p55d2ktoucheskids",
+        "name": "neagerballs",
+        "image": "avatars/101922334757149492035.webp",
+        "quantity": 58.450074,
+        "percentage": 5.8450074e-06,
+        "liquidationValue": 4591.325484499335
+      },
+      {
+        "rank": 40,
+        "userId": 11266,
+        "username": "moth",
+        "name": "moth",
+        "image": "avatars/105920148771527392695.webp",
+        "quantity": 56.2452852,
+        "percentage": 5.624528519999999e-06,
+        "liquidationValue": 4418.222915356979
+      },
+      {
+        "rank": 41,
+        "userId": 6331,
+        "username": "christian",
+        "name": "Christian",
+        "image": "avatars/112871718140151577191.webp",
+        "quantity": 51.98409092,
+        "percentage": 5.198409092e-06,
+        "liquidationValue": 4083.6484924964607
+      },
+      {
+        "rank": 42,
+        "userId": 11261,
+        "username": "wild_panda5535",
+        "name": "someone",
+        "image": "avatars/108871186493599464816.webp",
+        "quantity": 49.66947006,
+        "percentage": 4.966947006e-06,
+        "liquidationValue": 3901.9017771929502
+      },
+      {
+        "rank": 43,
+        "userId": 12569,
+        "username": "sixaxis",
+        "name": "sixaxis",
+        "image": "avatars/116631155123191109574.webp",
+        "quantity": 46.15705028,
+        "percentage": 4.615705028e-06,
+        "liquidationValue": 3626.0882596336305
+      },
+      {
+        "rank": 44,
+        "userId": 10608,
+        "username": "rexmine2",
+        "name": "rexmine2",
+        "image": "avatars/116462560208889960067.webp",
+        "quantity": 44.13064366,
+        "percentage": 4.413064366e-06,
+        "liquidationValue": 3466.9564342144877
+      },
+      {
+        "rank": 45,
+        "userId": 1615,
+        "username": "stonie",
+        "name": "Elias Steininger",
+        "image": "avatars/110098750111075850760.jpg",
+        "quantity": 42.5184615,
+        "percentage": 4.2518461500000004e-06,
+        "liquidationValue": 3340.3491877429187
+      },
+      {
+        "rank": 46,
+        "userId": 1113,
+        "username": "zipleix",
+        "name": "Baptiste LEROYER",
+        "image": "avatars/103386324612425443407.jpg",
+        "quantity": 42.51403679,
+        "percentage": 4.251403679e-06,
+        "liquidationValue": 3340.0017032027245
+      },
+      {
+        "rank": 47,
+        "userId": 12082,
+        "username": "brave_panda5617",
+        "name": "kfir",
+        "image": "avatars/109800880463363202941.webp",
+        "quantity": 41.23036751,
+        "percentage": 4.123036751e-06,
+        "liquidationValue": 3239.190504265949
+      },
+      {
+        "rank": 48,
+        "userId": 9461,
+        "username": "happy_tiger9210",
+        "name": "Jumpy 224",
+        "image": "avatars/109937389121894099054.webp",
+        "quantity": 38.91786142,
+        "percentage": 3.891786142e-06,
+        "liquidationValue": 3057.575235579163
+      },
+      {
+        "rank": 49,
+        "userId": 11228,
+        "username": "haha",
+        "name": "haha",
+        "image": "avatars/106871509140264868445.webp",
+        "quantity": 37.74676797,
+        "percentage": 3.7746767969999996e-06,
+        "liquidationValue": 2965.5992538835853
+      },
+      {
+        "rank": 50,
+        "userId": 13757,
+        "username": "yurr",
+        "name": "Yourrr",
+        "image": "avatars/117757863093280761926.webp",
+        "quantity": 36.9060262,
+        "percentage": 3.6906026199999996e-06,
+        "liquidationValue": 2899.5674368925393
+      },
+      {
+        "rank": 51,
+        "userId": 821,
+        "username": "marceldevskd",
+        "name": "Marcel",
+        "image": "avatars/107656751669212030144.png",
+        "quantity": 36.31430001,
+        "percentage": 3.631430001e-06,
+        "liquidationValue": 2853.092701235786
+      },
+      {
+        "rank": 52,
+        "userId": 14204,
+        "username": "wiwwdyuwu",
+        "name": "Wiwwdy",
+        "image": "avatars/14204.webp",
+        "quantity": 36.23387589,
+        "percentage": 3.623387589e-06,
+        "liquidationValue": 2846.7760770190507
+      },
+      {
+        "rank": 53,
+        "userId": 12207,
+        "username": "poggers",
+        "name": "Zepog",
+        "image": "avatars/12207.webp",
+        "quantity": 34.68530179,
+        "percentage": 3.468530179e-06,
+        "liquidationValue": 2725.1471194028854
+      },
+      {
+        "rank": 54,
+        "userId": 12091,
+        "username": "kind_eagle2670",
+        "name": "John Boanerges",
+        "image": "avatars/115931457859137156142.webp",
+        "quantity": 33.9661883,
+        "percentage": 3.39661883e-06,
+        "liquidationValue": 2668.664977526292
+      },
+      {
+        "rank": 55,
+        "userId": 12318,
+        "username": "bright_wolf4105",
+        "name": "Hmmm 044",
+        "image": "avatars/102842377112065174513.webp",
+        "quantity": 33.6068013,
+        "percentage": 3.3606801300000004e-06,
+        "liquidationValue": 2640.436969254166
+      },
+      {
+        "rank": 56,
+        "userId": 12346,
+        "username": "cool_bear6186",
+        "name": "John Kyle",
+        "image": "avatars/107590989631862430309.webp",
+        "quantity": 33.48848266,
+        "percentage": 3.3488482660000004e-06,
+        "liquidationValue": 2631.1436066981405
+      },
+      {
+        "rank": 57,
+        "userId": 12341,
+        "username": "kind_seal4122",
+        "name": "joe mama",
+        "image": "avatars/105207823996353989441.webp",
+        "quantity": 32.92328097,
+        "percentage": 3.2923280970000004e-06,
+        "liquidationValue": 2586.749451711774
+      },
+      {
+        "rank": 58,
+        "userId": 6806,
+        "username": "nevi",
+        "name": "Nevi",
+        "image": "avatars/6806.webp",
+        "quantity": 31.23333448,
+        "percentage": 3.123333448e-06,
+        "liquidationValue": 2454.0087907966226
+      },
+      {
+        "rank": 59,
+        "userId": 12507,
+        "username": "sortingfarmer",
+        "name": "SortingFarmer",
+        "image": "avatars/12507.webp",
+        "quantity": 30.00729378,
+        "percentage": 3.000729378e-06,
+        "liquidationValue": 2357.704168267548
+      },
+      {
+        "rank": 60,
+        "userId": 12129,
+        "username": "browniebtw",
+        "name": "Brownie",
+        "image": "avatars/104748812780028259866.webp",
+        "quantity": 28.73254523,
+        "percentage": 2.873254523e-06,
+        "liquidationValue": 2257.5713595282286
+      },
+      {
+        "rank": 61,
+        "userId": 4587,
+        "username": "bao",
+        "name": "Bảo",
+        "image": "avatars/116482032876405335281.webp",
+        "quantity": 28.51598696,
+        "percentage": 2.851598696e-06,
+        "liquidationValue": 2240.560260010883
+      },
+      {
+        "rank": 62,
+        "userId": 12084,
+        "username": "brave_whale9276",
+        "name": "Divyansh Pandey",
+        "image": "avatars/111378397732996435677.webp",
+        "quantity": 26.12416265,
+        "percentage": 2.6124162649999998e-06,
+        "liquidationValue": 2052.673175379634
+      },
+      {
+        "rank": 63,
+        "userId": 6519,
+        "username": "nixuser",
+        "name": "NixUser",
+        "image": "avatars/108167395383346032063.webp",
+        "quantity": 26.08702282,
+        "percentage": 2.608702282e-06,
+        "liquidationValue": 2049.7556347474456
+      },
+      {
+        "rank": 64,
+        "userId": 9388,
+        "username": "blackbird",
+        "name": "BlackBird Invest in *BUD",
+        "image": "avatars/9388.webp",
+        "quantity": 25.89638954,
+        "percentage": 2.5896389540000002e-06,
+        "liquidationValue": 2034.7802979461849
+      },
+      {
+        "rank": 65,
+        "userId": 11343,
+        "username": "bright_bear9881",
+        "name": "Bravo9Bear",
+        "image": "avatars/115095233073068677657.webp",
+        "quantity": 25.86543262,
+        "percentage": 2.5865432619999997e-06,
+        "liquidationValue": 2032.3484496679157
+      },
+      {
+        "rank": 66,
+        "userId": 9805,
+        "username": "jokull",
+        "name": "Jokull",
+        "image": "avatars/112949475881689219016.webp",
+        "quantity": 25.84182825,
+        "percentage": 2.584182825e-06,
+        "liquidationValue": 2030.4941865727305
+      },
+      {
+        "rank": 67,
+        "userId": 12227,
+        "username": "cool_whale3425",
+        "name": "Killa B.",
+        "image": "avatars/103362749149015053681.webp",
+        "quantity": 25.78504592,
+        "percentage": 2.578504592e-06,
+        "liquidationValue": 2026.0335949938744
+      },
+      {
+        "rank": 68,
+        "userId": 11207,
+        "username": "happy_deer1248",
+        "name": "personal",
+        "image": "avatars/100250674863027648208.webp",
+        "quantity": 25.49080029,
+        "percentage": 2.5490800289999997e-06,
+        "liquidationValue": 2002.9187692645937
+      },
+      {
+        "rank": 69,
+        "userId": 10535,
+        "username": "code",
+        "name": "CodeYolk",
+        "image": "avatars/102406205052831261269.webp",
+        "quantity": 24.82723066,
+        "percentage": 2.482723066e-06,
+        "liquidationValue": 1950.79080199264
+      },
+      {
+        "rank": 70,
+        "userId": 6998,
+        "username": "bud",
+        "name": "*BUD Holding || Invest in *BUD",
+        "image": "avatars/6998.webp",
+        "quantity": 24.56520156,
+        "percentage": 2.4565201559999995e-06,
+        "liquidationValue": 1930.2064416054636
+      },
+      {
+        "rank": 71,
+        "userId": 10,
+        "username": "restarting",
+        "name": "Restarting",
+        "image": "avatars/118186711890974987024.jpeg",
+        "quantity": 24.54249893,
+        "percentage": 2.454249893e-06,
+        "liquidationValue": 1928.4229744374752
+      },
+      {
+        "rank": 72,
+        "userId": 9984,
+        "username": "itsphxjupiter",
+        "name": "ItsPhxjupiter",
+        "image": "avatars/112605727384668823567.webp",
+        "quantity": 24.02260809,
+        "percentage": 2.402260809e-06,
+        "liquidationValue": 1887.581331713125
+      },
+      {
+        "rank": 73,
+        "userId": 6156,
+        "username": "aurameister",
+        "name": "$🥶",
+        "image": "avatars/6156.webp",
+        "quantity": 23.99953849,
+        "percentage": 2.3999538489999997e-06,
+        "liquidationValue": 1885.7690187748522
+      },
+      {
+        "rank": 74,
+        "userId": 10562,
+        "username": "sarkulum",
+        "name": "Sarkulum",
+        "image": "avatars/107379310488695015751.webp",
+        "quantity": 23.890659,
+        "percentage": 2.3890659e-06,
+        "liquidationValue": 1877.2156004626304
+      },
+      {
+        "rank": 75,
+        "userId": 12112,
+        "username": "kind_seal8680",
+        "name": "Ray Alfredd",
+        "image": "avatars/112303018928937032677.webp",
+        "quantity": 23.88282493,
+        "percentage": 2.3882824930000004e-06,
+        "liquidationValue": 1876.6001663990319
+      },
+      {
+        "rank": 76,
+        "userId": 9380,
+        "username": "humber",
+        "name": "Humber",
+        "image": "avatars/9380.webp",
+        "quantity": 23.80977157,
+        "percentage": 2.3809771569999998e-06,
+        "liquidationValue": 1870.8611879963428
+      },
+      {
+        "rank": 77,
+        "userId": 12923,
+        "username": "matoanselmo",
+        "name": "Mateus Anselmo",
+        "image": "avatars/101223913924025064623.webp",
+        "quantity": 23.59038557,
+        "percentage": 2.3590385569999998e-06,
+        "liquidationValue": 1853.6264601312578
+      },
+      {
+        "rank": 78,
+        "userId": 12357,
+        "username": "wild_seal3782",
+        "name": "Sirpigari",
+        "image": "avatars/102540220741664603258.webp",
+        "quantity": 23.1391976,
+        "percentage": 2.31391976e-06,
+        "liquidationValue": 1818.1814085021615
+      },
+      {
+        "rank": 79,
+        "userId": 12818,
+        "username": "bright_whale4015",
+        "name": "Thicc Soap",
+        "image": "avatars/113564297100651436186.webp",
+        "quantity": 22.99963978,
+        "percentage": 2.299963978e-06,
+        "liquidationValue": 1807.2177739087492
+      },
+      {
+        "rank": 80,
+        "userId": 11997,
+        "username": "focus_oy",
+        "name": "Ömer",
+        "image": "avatars/113740086788479072661.webp",
+        "quantity": 20.97074231,
+        "percentage": 2.097074231e-06,
+        "liquidationValue": 1647.8249285332859
+      },
+      {
+        "rank": 81,
+        "userId": 11201,
+        "username": "brave_deer3994",
+        "name": "Ilija Detlic",
+        "image": "avatars/109260559155733776721.webp",
+        "quantity": 20.7913152,
+        "percentage": 2.0791315199999997e-06,
+        "liquidationValue": 1633.7286236081272
+      },
+      {
+        "rank": 82,
+        "userId": 9031,
+        "username": "outpoot",
+        "name": "\\[,\"d\"]",
+        "image": "avatars/9031.webp",
+        "quantity": 18.93330292,
+        "percentage": 1.893330292e-06,
+        "liquidationValue": 1487.7552495580167
+      },
+      {
+        "rank": 83,
+        "userId": 13616,
+        "username": "clever_bear3643",
+        "name": "imma be rich af",
+        "image": "avatars/13616.webp",
+        "quantity": 18.74838181,
+        "percentage": 1.8748381810000001e-06,
+        "liquidationValue": 1473.2267949022353
+      },
+      {
+        "rank": 84,
+        "userId": 10748,
+        "username": "hzdy",
+        "name": "hzdy",
+        "image": "avatars/103707237341019020488.webp",
+        "quantity": 18.04736039,
+        "percentage": 1.804736039e-06,
+        "liquidationValue": 1418.1501306295395
+      },
+      {
+        "rank": 85,
+        "userId": 12404,
+        "username": "happy_tiger8872",
+        "name": "Jakub Matula",
+        "image": "avatars/110176204081079849833.webp",
+        "quantity": 17.5899915,
+        "percentage": 1.75899915e-06,
+        "liquidationValue": 1382.2159769311547
+      },
+      {
+        "rank": 86,
+        "userId": 11420,
+        "username": "baltard",
+        "name": "Baltard",
+        "image": "avatars/11420.webp",
+        "quantity": 17.03586639,
+        "percentage": 1.703586639e-06,
+        "liquidationValue": 1338.6795759387314
+      },
+      {
+        "rank": 87,
+        "userId": 7976,
+        "username": "morozsky",
+        "name": "Morozsky",
+        "image": "avatars/7976.webp",
+        "quantity": 16.44141314,
+        "percentage": 1.6441413140000002e-06,
+        "liquidationValue": 1291.9742054697126
+      },
+      {
+        "rank": 88,
+        "userId": 12663,
+        "username": "kind_tiger4945",
+        "name": "Check out my bio",
+        "image": "avatars/110532303091824989311.webp",
+        "quantity": 15.4622348,
+        "percentage": 1.5462234799999997e-06,
+        "liquidationValue": 1215.0404431633651
+      },
+      {
+        "rank": 89,
+        "userId": 13168,
+        "username": "happy_bear6329",
+        "name": "nils vanek",
+        "image": "avatars/100303876743302906855.webp",
+        "quantity": 15.26408966,
+        "percentage": 1.526408966e-06,
+        "liquidationValue": 1199.47207367979
+      },
+      {
+        "rank": 90,
+        "userId": 12630,
+        "username": "pickerz",
+        "name": "Pickerz",
+        "image": "avatars/12630.webp",
+        "quantity": 14.96251786,
+        "percentage": 1.496251786e-06,
+        "liquidationValue": 1175.777311321348
+      },
+      {
+        "rank": 91,
+        "userId": 12629,
+        "username": "thereallunarkid",
+        "name": "TheRealLunarKid",
+        "image": "avatars/12629.webp",
+        "quantity": 14.95850882,
+        "percentage": 1.495850882e-06,
+        "liquidationValue": 1175.4623166602105
+      },
+      {
+        "rank": 92,
+        "userId": 13156,
+        "username": "kasa276",
+        "name": "Kasa Alahuakbar",
+        "image": "avatars/104689571269324019039.webp",
+        "quantity": 14.50422327,
+        "percentage": 1.4504223270000001e-06,
+        "liquidationValue": 1139.768458565697
+      },
+      {
+        "rank": 93,
+        "userId": 12078,
+        "username": "something",
+        "name": "Something",
+        "image": "avatars/12078.webp",
+        "quantity": 13.60289267,
+        "percentage": 1.3602892669999998e-06,
+        "liquidationValue": 1068.9487877171487
+      },
+      {
+        "rank": 94,
+        "userId": 992,
+        "username": "wursti1999",
+        "name": "mini wurst",
+        "image": "avatars/116175627792558908218.png",
+        "quantity": 13.2432682,
+        "percentage": 1.3243268199999998e-06,
+        "liquidationValue": 1040.6919291745871
+      },
+      {
+        "rank": 95,
+        "userId": 8570,
+        "username": "ncsources0",
+        "name": "NCSources0",
+        "image": "avatars/112615806698971716197.webp",
+        "quantity": 13.11875672,
+        "percentage": 1.311875672e-06,
+        "liquidationValue": 1030.908617220819
+      },
+      {
+        "rank": 96,
+        "userId": 13871,
+        "username": "clever_wolf5116",
+        "name": "Rafael Marcos",
+        "image": "avatars/108102187897482428256.webp",
+        "quantity": 12.88075212,
+        "percentage": 1.2880752119999999e-06,
+        "liquidationValue": 1012.2076851446182
+      },
+      {
+        "rank": 97,
+        "userId": 12393,
+        "username": "happy_wolf4758",
+        "name": "Savage Dev",
+        "image": "avatars/106433254761900662986.webp",
+        "quantity": 12.87935711,
+        "percentage": 1.287935711e-06,
+        "liquidationValue": 1012.098073637113
+      },
+      {
+        "rank": 98,
+        "userId": 7391,
+        "username": "lucky_fox1681",
+        "name": "Friedrich Maitre",
+        "image": "avatars/117099227844999348966.webp",
+        "quantity": 12.87579919,
+        "percentage": 1.2875799189999999e-06,
+        "liquidationValue": 1011.8185136448592
+      },
+      {
+        "rank": 99,
+        "userId": 11443,
+        "username": "pikachu",
+        "name": "Sahak",
+        "image": "avatars/11443.webp",
+        "quantity": 12.87402015,
+        "percentage": 1.287402015e-06,
+        "liquidationValue": 1011.6787273548543
+      },
+      {
+        "rank": 100,
+        "userId": 13058,
+        "username": "justaperson",
+        "name": "Just a person",
+        "image": "avatars/109766032207777599080.webp",
+        "quantity": 12.85324448,
+        "percentage": 1.2853244480000002e-06,
+        "liquidationValue": 1010.0462995301932
+      },
+      {
+        "rank": 101,
+        "userId": 13601,
+        "username": "ana",
+        "name": "PocoAna",
+        "image": "avatars/13601.webp",
+        "quantity": 12.83355251,
+        "percentage": 1.283355251e-06,
+        "liquidationValue": 1008.4990218132734
+      },
+      {
+        "rank": 102,
+        "userId": 12886,
+        "username": "dattv",
+        "name": "DaTTV",
+        "image": "avatars/104301692433192420705.webp",
+        "quantity": 12.83276816,
+        "percentage": 1.283276816e-06,
+        "liquidationValue": 1008.437392251566
+      },
+      {
+        "rank": 103,
+        "userId": 6084,
+        "username": "morningstar",
+        "name": "Morning",
+        "image": "avatars/6084.webp",
+        "quantity": 12.73101289,
+        "percentage": 1.273101289e-06,
+        "liquidationValue": 1000.4420604687184
+      },
+      {
+        "rank": 104,
+        "userId": 12613,
+        "username": "platypusaf",
+        "name": "PlatypusAF",
+        "image": "avatars/107118014653921832104.webp",
+        "quantity": 12.45399999,
+        "percentage": 1.245399999e-06,
+        "liquidationValue": 978.6759398598224
+      },
+      {
+        "rank": 105,
+        "userId": 13632,
+        "username": "tiredishere",
+        "name": "Tired",
+        "image": "avatars/110161284051098611769.webp",
+        "quantity": 12.43916428,
+        "percentage": 1.243916428e-06,
+        "liquidationValue": 977.510229928419
+      },
+      {
+        "rank": 106,
+        "userId": 14020,
+        "username": "calm_fox895",
+        "name": "foxedit",
+        "image": "avatars/115092792933146835477.webp",
+        "quantity": 12.30585469,
+        "percentage": 1.230585469e-06,
+        "liquidationValue": 967.035468891263
+      },
+      {
+        "rank": 107,
+        "userId": 9575,
+        "username": "jon",
+        "name": "Jon",
+        "image": "avatars/105331538566438982025.webp",
+        "quantity": 12.28753894,
+        "percentage": 1.2287538939999998e-06,
+        "liquidationValue": 965.5963123962283
+      },
+      {
+        "rank": 108,
+        "userId": 5236,
+        "username": "x3n0m",
+        "name": "X3n0m",
+        "image": "avatars/5236.webp",
+        "quantity": 12.08662608,
+        "percentage": 1.2086626079999999e-06,
+        "liquidationValue": 949.8095928076655
+      },
+      {
+        "rank": 109,
+        "userId": 11951,
+        "username": "wild_wolf1985",
+        "name": "drkplayz",
+        "image": "avatars/108915203270120374049.webp",
+        "quantity": 12.00899321,
+        "percentage": 1.200899321e-06,
+        "liquidationValue": 943.7095782253891
+      },
+      {
+        "rank": 110,
+        "userId": 7831,
+        "username": "marioodyssey",
+        "name": "Mario",
+        "image": "avatars/7831.webp",
+        "quantity": 11.9846254,
+        "percentage": 1.1984625400000001e-06,
+        "liquidationValue": 941.7948721125722
+      },
+      {
+        "rank": 111,
+        "userId": 10351,
+        "username": "purposedfox",
+        "name": "purposedfox",
+        "image": "avatars/112520194608712996809.webp",
+        "quantity": 11.98075194,
+        "percentage": 1.198075194e-06,
+        "liquidationValue": 941.4905140530318
+      },
+      {
+        "rank": 112,
+        "userId": 12918,
+        "username": "clever_wolf7165",
+        "name": "Da Ka",
+        "image": "avatars/101952292544008312939.webp",
+        "quantity": 11.9788976,
+        "percentage": 1.19788976e-06,
+        "liquidationValue": 941.3448088280857
+      },
+      {
+        "rank": 113,
+        "userId": 13985,
+        "username": "thelysky",
+        "name": "Linus-Jasper Danne",
+        "image": "avatars/114518562282134357010.webp",
+        "quantity": 11.92109091,
+        "percentage": 1.192109091e-06,
+        "liquidationValue": 936.802631482482
+      },
+      {
+        "rank": 114,
+        "userId": 13087,
+        "username": "wild_tiger7902",
+        "name": "mathias oneill",
+        "image": "avatars/100100251664552634585.webp",
+        "quantity": 11.79369061,
+        "percentage": 1.179369061e-06,
+        "liquidationValue": 926.7920997161418
+      },
+      {
+        "rank": 115,
+        "userId": 10487,
+        "username": "the_rubert69",
+        "name": "rubert",
+        "image": "avatars/10487.webp",
+        "quantity": 11.56581189,
+        "percentage": 1.1565811890000001e-06,
+        "liquidationValue": 908.8863777555525
+      },
+      {
+        "rank": 116,
+        "userId": 9275,
+        "username": "saulgoodman",
+        "name": "Saul Goodman",
+        "image": "avatars/9275.webp",
+        "quantity": 9.70396645,
+        "percentage": 9.703966449999999e-07,
+        "liquidationValue": 762.5879241805524
+      },
+      {
+        "rank": 117,
+        "userId": 12532,
+        "username": "bright_fox5699",
+        "name": "Henry Singleton",
+        "image": "avatars/102878147656113611880.webp",
+        "quantity": 9.22050762,
+        "percentage": 9.220507619999998e-07,
+        "liquidationValue": 724.5983316339552
+      },
+      {
+        "rank": 118,
+        "userId": 6075,
+        "username": "justharsiz",
+        "name": "jhz",
+        "image": "avatars/114316461153077463485.webp",
+        "quantity": 8.74933339,
+        "percentage": 8.74933339e-07,
+        "liquidationValue": 687.5737343356013
+      },
+      {
+        "rank": 119,
+        "userId": 12452,
+        "username": "clever_fox6951",
+        "name": "lwgy mc",
+        "image": "avatars/106882674449512854365.webp",
+        "quantity": 7.77343346,
+        "percentage": 7.77343346e-07,
+        "liquidationValue": 610.887101015076
+      },
+      {
+        "rank": 120,
+        "userId": 12052,
+        "username": "bright_bear1937",
+        "name": "Jan Miklaszewski",
+        "image": "avatars/113926367216691306048.webp",
+        "quantity": 7.65807114,
+        "percentage": 7.65807114e-07,
+        "liquidationValue": 601.8217929434031
+      },
+      {
+        "rank": 121,
+        "userId": 9194,
+        "username": "gingervitis",
+        "name": "gingervitis",
+        "image": "avatars/117383139703311182723.webp",
+        "quantity": 7.44086178,
+        "percentage": 7.440861779999999e-07,
+        "liquidationValue": 584.7531732283533
+      },
+      {
+        "rank": 122,
+        "userId": 7625,
+        "username": "wild_lion710",
+        "name": "Ogliber",
+        "image": "avatars/7625.webp",
+        "quantity": 7.392401,
+        "percentage": 7.392401e-07,
+        "liquidationValue": 580.9450474046171
+      },
+      {
+        "rank": 123,
+        "userId": 10340,
+        "username": "silverplayer",
+        "name": "m1skolci",
+        "image": "avatars/100229087631216961355.webp",
+        "quantity": 6.91329815,
+        "percentage": 6.91329815e-07,
+        "liquidationValue": 543.2962008994073
+      },
+      {
+        "rank": 124,
+        "userId": 13159,
+        "username": "diazufa",
+        "name": "Diazufa",
+        "image": "avatars/114678763636610925641.webp",
+        "quantity": 6.73747603,
+        "percentage": 6.73747603e-07,
+        "liquidationValue": 529.4796718601137
+      },
+      {
+        "rank": 125,
+        "userId": 12182,
+        "username": "brave_tiger4922",
+        "name": "Guillaume R",
+        "image": "avatars/103297704944920170162.webp",
+        "quantity": 6.52479756,
+        "percentage": 6.524797559999999e-07,
+        "liquidationValue": 512.7668238058686
+      },
+      {
+        "rank": 126,
+        "userId": 12885,
+        "username": "justspy",
+        "name": "Spy",
+        "image": "avatars/12885.webp",
+        "quantity": 6.44891318,
+        "percentage": 6.448913179999999e-07,
+        "liquidationValue": 506.80360920727253
+      },
+      {
+        "rank": 127,
+        "userId": 10662,
+        "username": "galbaninoh",
+        "name": "Galbaninoh",
+        "image": "avatars/114090398107030206783.webp",
+        "quantity": 6.44818085,
+        "percentage": 6.44818085e-07,
+        "liquidationValue": 506.74606055393815
+      },
+      {
+        "rank": 128,
+        "userId": 5657,
+        "username": "revilo",
+        "name": "Revilo.Dev",
+        "image": "avatars/105010815183037245824.webp",
+        "quantity": 6.44539857,
+        "percentage": 6.44539857e-07,
+        "liquidationValue": 506.5274207685143
+      },
+      {
+        "rank": 129,
+        "userId": 10289,
+        "username": "cool_whale4780",
+        "name": "rawdogger",
+        "image": "avatars/110877179011241855824.webp",
+        "quantity": 6.38458435,
+        "percentage": 6.38458435e-07,
+        "liquidationValue": 501.7484569493681
+      },
+      {
+        "rank": 130,
+        "userId": 568,
+        "username": "proplayer919",
+        "name": "proplayer919",
+        "image": "avatars/568.png",
+        "quantity": 6.30912144,
+        "percentage": 6.309121440000001e-07,
+        "liquidationValue": 495.81834796629846
+      },
+      {
+        "rank": 131,
+        "userId": 11926,
+        "username": "bright_whale4540",
+        "name": "Dobbe Scheiss",
+        "image": "avatars/109044529129967649485.webp",
+        "quantity": 6.28835436,
+        "percentage": 6.288354359999999e-07,
+        "liquidationValue": 494.1864051669836
+      },
+      {
+        "rank": 132,
+        "userId": 14140,
+        "username": "kind_bear1077",
+        "name": "Karel Ivanovič",
+        "image": "avatars/100287609146517846552.webp",
+        "quantity": 6.14300574,
+        "percentage": 6.143005740000001e-07,
+        "liquidationValue": 482.7644342724234
+      },
+      {
+        "rank": 133,
+        "userId": 8964,
+        "username": "dice",
+        "name": "DICE",
+        "image": "avatars/8964.webp",
+        "quantity": 6.12561286,
+        "percentage": 6.12561286e-07,
+        "liquidationValue": 481.3976427912712
+      },
+      {
+        "rank": 134,
+        "userId": 13165,
+        "username": "sunny_whale296",
+        "name": "Данил",
+        "image": "avatars/13165.webp",
+        "quantity": 6.05002669,
+        "percentage": 6.05002669e-07,
+        "liquidationValue": 475.4578203763813
+      },
+      {
+        "rank": 135,
+        "userId": 230,
+        "username": "wild_whale8945",
+        "name": "alex carter",
+        "image": "avatars/117617426246345261931.png",
+        "quantity": 6.03517912,
+        "percentage": 6.03517912e-07,
+        "liquidationValue": 474.29104608669877
+      },
+      {
+        "rank": 136,
+        "userId": 12033,
+        "username": "prems",
+        "name": "prems",
+        "image": "avatars/118004529840743866562.webp",
+        "quantity": 5.98207622,
+        "percentage": 5.98207622e-07,
+        "liquidationValue": 470.1180308572948
+      },
+      {
+        "rank": 137,
+        "userId": 13064,
+        "username": "clever_fox3051",
+        "name": "gustic009 twitch",
+        "image": null,
+        "quantity": 5.76551983,
+        "percentage": 5.76551983e-07,
+        "liquidationValue": 453.10021688602865
+      },
+      {
+        "rank": 138,
+        "userId": 12590,
+        "username": "im_broke_asf",
+        "name": "broke",
+        "image": "avatars/12590.webp",
+        "quantity": 5.63927374,
+        "percentage": 5.63927374e-07,
+        "liquidationValue": 443.17929511889815
+      },
+      {
+        "rank": 139,
+        "userId": 12588,
+        "username": "happy_fox8116",
+        "name": "stst",
+        "image": "avatars/12588.webp",
+        "quantity": 5.53515046,
+        "percentage": 5.535150459999999e-07,
+        "liquidationValue": 434.996855372563
+      },
+      {
+        "rank": 140,
+        "userId": 11154,
+        "username": "bright_deer3380",
+        "name": "normchell",
+        "image": "avatars/100968009379826028163.webp",
+        "quantity": 5.41215575,
+        "percentage": 5.41215575e-07,
+        "liquidationValue": 425.33140083029866
+      },
+      {
+        "rank": 141,
+        "userId": 12240,
+        "username": "itsgiizmo",
+        "name": "Gizmo",
+        "image": "avatars/108548519924463768710.webp",
+        "quantity": 5.15787836,
+        "percentage": 5.157878359999999e-07,
+        "liquidationValue": 405.3491204995662
+      },
+      {
+        "rank": 142,
+        "userId": 14388,
+        "username": "justsomething",
+        "name": "DUDE",
+        "image": "avatars/14388.webp",
+        "quantity": 5.03029041,
+        "percentage": 5.03029041e-07,
+        "liquidationValue": 395.3226418811828
+      },
+      {
+        "rank": 143,
+        "userId": 14918,
+        "username": "yaboi_v3rt3x",
+        "name": "v3rt3x",
+        "image": "avatars/101383657298674270204.webp",
+        "quantity": 4.99999965,
+        "percentage": 4.99999965e-07,
+        "liquidationValue": 392.9422440249473
+      },
+      {
+        "rank": 144,
+        "userId": 5938,
+        "username": "ggr",
+        "name": "Global Gold Reserve",
+        "image": "avatars/5938.webp",
+        "quantity": 4.98526519,
+        "percentage": 4.98526519e-07,
+        "liquidationValue": 391.7843367625028
+      },
+      {
+        "rank": 145,
+        "userId": 12621,
+        "username": "cool_whale9712",
+        "name": "Duy Developer (ZwieeADBChan)",
+        "image": "avatars/103403000281504704155.webp",
+        "quantity": 4.98090301,
+        "percentage": 4.980903009999999e-07,
+        "liquidationValue": 391.4415348712355
+      },
+      {
+        "rank": 146,
+        "userId": 5918,
+        "username": "andre",
+        "name": "andre",
+        "image": "avatars/5918.webp",
+        "quantity": 4.77458407,
+        "percentage": 4.77458407e-07,
+        "liquidationValue": 375.2279318217188
+      },
+      {
+        "rank": 147,
+        "userId": 12975,
+        "username": "vandi",
+        "name": "Vandi",
+        "image": "avatars/107885921069040454601.webp",
+        "quantity": 4.76741731,
+        "percentage": 4.7674173100000005e-07,
+        "liquidationValue": 374.66472990997136
+      },
+      {
+        "rank": 148,
+        "userId": 1024,
+        "username": "lucky_bear8974",
+        "name": "Zayne",
+        "image": "avatars/1024.webp",
+        "quantity": 4.76423104,
+        "percentage": 4.7642310400000006e-07,
+        "liquidationValue": 374.41433593444526
+      },
+      {
+        "rank": 149,
+        "userId": 13113,
+        "username": "plex",
+        "name": "PL",
+        "image": "avatars/13113.webp",
+        "quantity": 4.66727307,
+        "percentage": 4.66727307e-07,
+        "liquidationValue": 366.79485827870667
+      },
+      {
+        "rank": 150,
+        "userId": 13157,
+        "username": "sunny_seal2870",
+        "name": "Coolbeans",
+        "image": "avatars/115597426958758263457.webp",
+        "quantity": 4.49170088,
+        "percentage": 4.49170088e-07,
+        "liquidationValue": 352.9974199626595
+      },
+      {
+        "rank": 151,
+        "userId": 780,
+        "username": "0y0s",
+        "name": "Ô_Ó",
+        "image": "avatars/107960770161807695958.png",
+        "quantity": 4.3752248,
+        "percentage": 4.3752248e-07,
+        "liquidationValue": 343.8440586589277
+      },
+      {
+        "rank": 152,
+        "userId": 12185,
+        "username": "clever_seal6614",
+        "name": "Stein 0705",
+        "image": "avatars/105021244468801061465.webp",
+        "quantity": 4.31870396,
+        "percentage": 4.318703959999999e-07,
+        "liquidationValue": 339.40231866389513
+      },
+      {
+        "rank": 153,
+        "userId": 11688,
+        "username": "ph_se",
+        "name": "alex",
+        "image": "avatars/117439453952195916139.webp",
+        "quantity": 4.16526561,
+        "percentage": 4.1652656099999995e-07,
+        "liquidationValue": 327.34420833550394
+      },
+      {
+        "rank": 154,
+        "userId": 11507,
+        "username": "trulle123",
+        "name": "Trulle123",
+        "image": "avatars/11507.webp",
+        "quantity": 4.10800122,
+        "percentage": 4.10800122e-07,
+        "liquidationValue": 322.8440190255642
+      },
+      {
+        "rank": 155,
+        "userId": 8371,
+        "username": "kind_wolf2409",
+        "name": "EldzeyTheDev",
+        "image": "avatars/103894010074510332078.webp",
+        "quantity": 4.04132094,
+        "percentage": 4.0413209400000003e-07,
+        "liquidationValue": 317.6038651894778
+      },
+      {
+        "rank": 156,
+        "userId": 11721,
+        "username": "carlxvigustaf",
+        "name": "Carl XVI Gustaf",
+        "image": "avatars/11721.webp",
+        "quantity": 4.01357495,
+        "percentage": 4.0135749499999995e-07,
+        "liquidationValue": 315.4234097748995
+      },
+      {
+        "rank": 157,
+        "userId": 13249,
+        "username": "returnedmath",
+        "name": "returnedmath",
+        "image": "avatars/13249.webp",
+        "quantity": 3.90433911,
+        "percentage": 3.9043391100000004e-07,
+        "liquidationValue": 306.83895601704717
+      },
+      {
+        "rank": 158,
+        "userId": 12151,
+        "username": "alkaline",
+        "name": "Alkaline",
+        "image": "avatars/111281582183773972641.webp",
+        "quantity": 3.90193045,
+        "percentage": 3.90193045e-07,
+        "liquidationValue": 306.64966785907745
+      },
+      {
+        "rank": 159,
+        "userId": 10687,
+        "username": "lamaspaziale",
+        "name": "Lama",
+        "image": "avatars/102320495160226568485.webp",
+        "quantity": 3.78623969,
+        "percentage": 3.78623969e-07,
+        "liquidationValue": 297.55792652256787
+      },
+      {
+        "rank": 160,
+        "userId": 11098,
+        "username": "jontsgame",
+        "name": "Jontsgame",
+        "image": "avatars/114662581736516770794.webp",
+        "quantity": 3.70358796,
+        "percentage": 3.70358796e-07,
+        "liquidationValue": 291.06259818561375
+      },
+      {
+        "rank": 161,
+        "userId": 12861,
+        "username": "clever_bear5418",
+        "name": "kingkonglingling",
+        "image": "avatars/111166604037799037237.webp",
+        "quantity": 3.50728555,
+        "percentage": 3.50728555e-07,
+        "liquidationValue": 275.6357975732535
+      },
+      {
+        "rank": 162,
+        "userId": 12214,
+        "username": "glorpus_lupus",
+        "name": "GlorpMan",
+        "image": "avatars/12214.webp",
+        "quantity": 3.46940057,
+        "percentage": 3.46940057e-07,
+        "liquidationValue": 272.6585277263075
+      },
+      {
+        "rank": 163,
+        "userId": 5732,
+        "username": "dingdong",
+        "name": "DingDong",
+        "image": "avatars/110098534455800648687.webp",
+        "quantity": 3.03126871,
+        "percentage": 3.0312687099999997e-07,
+        "liquidationValue": 238.22688014432788
+      },
+      {
+        "rank": 164,
+        "userId": 10669,
+        "username": "reddomic6",
+        "name": "Red",
+        "image": "avatars/118020385166897963426.webp",
+        "quantity": 2.79079678,
+        "percentage": 2.79079678e-07,
+        "liquidationValue": 219.32870059460402
+      },
+      {
+        "rank": 165,
+        "userId": 9778,
+        "username": "lucky_bear6258",
+        "name": "manfromdelma",
+        "image": "avatars/9778.webp",
+        "quantity": 2.69521216,
+        "percentage": 2.69521216e-07,
+        "liquidationValue": 211.81688542291522
+      },
+      {
+        "rank": 166,
+        "userId": 13108,
+        "username": "surreal",
+        "name": "surreal",
+        "image": "avatars/13108.webp",
+        "quantity": 2.69436363,
+        "percentage": 2.6943636299999995e-07,
+        "liquidationValue": 211.75020099058747
+      },
+      {
+        "rank": 167,
+        "userId": 12092,
+        "username": "huhu",
+        "name": "Karim Elbogoss",
+        "image": "avatars/110009540431054697644.webp",
+        "quantity": 2.61301957,
+        "percentage": 2.61301957e-07,
+        "liquidationValue": 205.35751447081566
+      },
+      {
+        "rank": 168,
+        "userId": 12448,
+        "username": "lucky_bear2912",
+        "name": "Michel B",
+        "image": "avatars/115699740046283766533.webp",
+        "quantity": 2.59160311,
+        "percentage": 2.59160311e-07,
+        "liquidationValue": 203.67443103902042
+      },
+      {
+        "rank": 169,
+        "userId": 10833,
+        "username": "phold",
+        "name": "Pogging Holdings",
+        "image": "avatars/113609047352233582128.webp",
+        "quantity": 2.58701895,
+        "percentage": 2.58701895e-07,
+        "liquidationValue": 203.31416955962777
+      },
+      {
+        "rank": 170,
+        "userId": 12296,
+        "username": "jade",
+        "name": "JadeTheRock",
+        "image": "avatars/105008170253945834412.webp",
+        "quantity": 2.5868833,
+        "percentage": 2.5868833e-07,
+        "liquidationValue": 203.30350905284286
+      },
+      {
+        "rank": 171,
+        "userId": 11609,
+        "username": "grandmother",
+        "name": "Grandma",
+        "image": "avatars/11609.webp",
+        "quantity": 2.58102969,
+        "percentage": 2.58102969e-07,
+        "liquidationValue": 202.84348357468843
+      },
+      {
+        "rank": 172,
+        "userId": 5169,
+        "username": "calm_wolf6210",
+        "name": "Max Witt",
+        "image": "avatars/105618719640850087543.webp",
+        "quantity": 2.58088065,
+        "percentage": 2.58088065e-07,
+        "liquidationValue": 202.8317707683891
+      },
+      {
+        "rank": 173,
+        "userId": 12104,
+        "username": "sunny_bear9155",
+        "name": "Pulkowski Piotr",
+        "image": "avatars/111786209859568603653.webp",
+        "quantity": 2.57826525,
+        "percentage": 2.5782652499999997e-07,
+        "liquidationValue": 202.62623081542552
+      },
+      {
+        "rank": 174,
+        "userId": 13296,
+        "username": "le_catalyst",
+        "name": "Catalyst",
+        "image": "avatars/101275850211070397407.webp",
+        "quantity": 2.57563722,
+        "percentage": 2.57563722e-07,
+        "liquidationValue": 202.41969828121364
+      },
+      {
+        "rank": 175,
+        "userId": 12960,
+        "username": "p55d2k",
+        "name": "p55d2k",
+        "image": "avatars/105007041541980308655.webp",
+        "quantity": 2.56650272,
+        "percentage": 2.56650272e-07,
+        "liquidationValue": 201.7018329501152
+      },
+      {
+        "rank": 176,
+        "userId": 9954,
+        "username": "nsnapfish",
+        "name": "Nsnapfish",
+        "image": "avatars/9954.webp",
+        "quantity": 2.53082024,
+        "percentage": 2.53082024e-07,
+        "liquidationValue": 198.89760442264378
+      },
+      {
+        "rank": 177,
+        "userId": 12130,
+        "username": "joyce",
+        "name": "Joyce",
+        "image": "avatars/100208422244163808128.webp",
+        "quantity": 2.50483414,
+        "percentage": 2.50483414e-07,
+        "liquidationValue": 196.85539763607085
+      },
+      {
+        "rank": 178,
+        "userId": 12643,
+        "username": "torke61",
+        "name": "Timur Tan Sahin",
+        "image": null,
+        "quantity": 2.49424648,
+        "percentage": 2.4942464800000005e-07,
+        "liquidationValue": 196.02332979626954
+      },
+      {
+        "rank": 179,
+        "userId": 12110,
+        "username": "wild_whale9042",
+        "name": "RodKer Sama",
+        "image": "avatars/101137265384174392668.webp",
+        "quantity": 2.49193817,
+        "percentage": 2.49193817e-07,
+        "liquidationValue": 195.84192325919867
+      },
+      {
+        "rank": 180,
+        "userId": 13387,
+        "username": "lucky_deer6763",
+        "name": "Corrupted Cat",
+        "image": "avatars/103248576141372934950.webp",
+        "quantity": 2.48081405,
+        "percentage": 2.4808140500000005e-07,
+        "liquidationValue": 194.96769565157592
+      },
+      {
+        "rank": 181,
+        "userId": 12676,
+        "username": "smitty_wmj",
+        "name": "Smitty Werben Jagerman Jensen",
+        "image": "avatars/12676.webp",
+        "quantity": 2.405125,
+        "percentage": 2.405125e-07,
+        "liquidationValue": 189.01940419338644
+      },
+      {
+        "rank": 182,
+        "userId": 12539,
+        "username": "dieinformatik",
+        "name": "DieInformatik",
+        "image": "avatars/103914095909014821111.webp",
+        "quantity": 2.39634892,
+        "percentage": 2.39634892e-07,
+        "liquidationValue": 188.32970441691577
+      },
+      {
+        "rank": 183,
+        "userId": 4589,
+        "username": "ar9ab",
+        "name": "mommy",
+        "image": "avatars/4589.webp",
+        "quantity": 2.39086083,
+        "percentage": 2.39086083e-07,
+        "liquidationValue": 187.8984030932188
+      },
+      {
+        "rank": 184,
+        "userId": 3129,
+        "username": "kind_eagle4230",
+        "name": "Ricus",
+        "image": "avatars/102292302116140785650.png",
+        "quantity": 2.34820528,
+        "percentage": 2.3482052800000002e-07,
+        "liquidationValue": 184.54616159945726
+      },
+      {
+        "rank": 185,
+        "userId": 13295,
+        "username": "lucky_eagle9051",
+        "name": "kenan 238",
+        "image": "avatars/106440590111773311236.webp",
+        "quantity": 2.30478256,
+        "percentage": 2.30478256e-07,
+        "liquidationValue": 181.1336266566068
+      },
+      {
+        "rank": 186,
+        "userId": 12843,
+        "username": "lucky_panda4950",
+        "name": "panda",
+        "image": "avatars/12843.webp",
+        "quantity": 2.14321211,
+        "percentage": 2.1432121099999998e-07,
+        "liquidationValue": 168.43599259853363
+      },
+      {
+        "rank": 187,
+        "userId": 13752,
+        "username": "artemiylebedev",
+        "name": "artempro",
+        "image": "avatars/13752.webp",
+        "quantity": 2.09351672,
+        "percentage": 2.0935167200000004e-07,
+        "liquidationValue": 164.53048228845
+      },
+      {
+        "rank": 188,
+        "userId": 12325,
+        "username": "simdimonaco",
+        "name": "Simdimonaco",
+        "image": "avatars/106891985547950805093.webp",
+        "quantity": 2.06598306,
+        "percentage": 2.0659830600000003e-07,
+        "liquidationValue": 162.36663838662207
+      },
+      {
+        "rank": 189,
+        "userId": 13835,
+        "username": "lucky_tiger1543",
+        "name": "Yes",
+        "image": "avatars/116099786780068530403.webp",
+        "quantity": 2.03634677,
+        "percentage": 2.0363467700000003e-07,
+        "liquidationValue": 160.03754962980747
+      },
+      {
+        "rank": 190,
+        "userId": 11963,
+        "username": "bright_tiger9061",
+        "name": "Chmurek Ugh",
+        "image": "avatars/102908906528406787677.webp",
+        "quantity": 2,
+        "percentage": 2.0000000000000002e-07,
+        "liquidationValue": 157.1810887567699
+      },
+      {
+        "rank": 191,
+        "userId": 12016,
+        "username": "brave_seal8619",
+        "name": "Jakub Przybylski",
+        "image": "avatars/100358702662151021632.webp",
+        "quantity": 1.89272171,
+        "percentage": 1.8927217100000001e-07,
+        "liquidationValue": 148.7501710113138
+      },
+      {
+        "rank": 192,
+        "userId": 13146,
+        "username": "brave_tiger5285",
+        "name": "Duncan Bunnell",
+        "image": "avatars/100889699815984626488.webp",
+        "quantity": 1.81178078,
+        "percentage": 1.81178078e-07,
+        "liquidationValue": 142.38907537981868
+      },
+      {
+        "rank": 193,
+        "userId": 7462,
+        "username": "cookie",
+        "name": "cookie",
+        "image": "avatars/7462.webp",
+        "quantity": 1.59105475,
+        "percentage": 1.59105475e-07,
+        "liquidationValue": 125.04231225512922
+      },
+      {
+        "rank": 194,
+        "userId": 11468,
+        "username": "wild_whale5518",
+        "name": "sss s",
+        "image": "avatars/111816097875809184101.webp",
+        "quantity": 1.57715364,
+        "percentage": 1.57715364e-07,
+        "liquidationValue": 123.94982776790857
+      },
+      {
+        "rank": 195,
+        "userId": 532,
+        "username": "yusur",
+        "name": "Yusur Princeps",
+        "image": "avatars/532.webp",
+        "quantity": 1.50016984,
+        "percentage": 1.50016984e-07,
+        "liquidationValue": 117.89968680031598
+      },
+      {
+        "rank": 196,
+        "userId": 14155,
+        "username": "clever_panda1722",
+        "name": "Joseph dewes",
+        "image": "avatars/116922396590690488189.webp",
+        "quantity": 1.36673471,
+        "percentage": 1.36673471e-07,
+        "liquidationValue": 107.41302788816392
+      },
+      {
+        "rank": 197,
+        "userId": 10088,
+        "username": "loganpaul",
+        "name": "Logan Paul",
+        "image": "avatars/10088.webp",
+        "quantity": 1.36169484,
+        "percentage": 1.36169484e-07,
+        "liquidationValue": 107.01694431900978
+      },
+      {
+        "rank": 198,
+        "userId": 12056,
+        "username": "blacktivity",
+        "name": "Benjamin",
+        "image": "avatars/101311611551635579693.webp",
+        "quantity": 1.30044855,
+        "percentage": 1.30044855e-07,
+        "liquidationValue": 102.20359330251813
+      },
+      {
+        "rank": 199,
+        "userId": 9903,
+        "username": "inyourface3445",
+        "name": "Inyourface3445",
+        "image": "avatars/102363924626390028620.webp",
+        "quantity": 1.29341045,
+        "percentage": 1.2934104500000002e-07,
+        "liquidationValue": 101.65046810358763
+      },
+      {
+        "rank": 200,
+        "userId": 13716,
+        "username": "intel",
+        "name": "Intel",
+        "image": "avatars/13716.webp",
+        "quantity": 1.28644189,
+        "percentage": 1.2864418900000002e-07,
+        "liquidationValue": 101.10280799493194
+      }
+    ],
+    "poolInfo": {
+      "coinAmount": 112800.49394696,
+      "baseCurrencyAmount": 8865209.40653229,
+      "currentPrice": 78.59193782
+    }
+  }
+]

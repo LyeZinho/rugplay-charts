@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ coin.name }} ({{ coin.symbol }}) - Análise RugPlay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background: #181a20;
+            color: #eaeaea;
+        }
+        .risk { font-weight: bold; }
+        .chart { margin-top: 2em; }
+        h1, h3, h2 { color: #fff; }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: #23262f;
+            color: #eaeaea;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background: #222;
+            color: #fff;
+        }
+        .card {
+            background: #23262f;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+            padding: 24px;
+            margin: 24px auto;
+            max-width: 900px;
+            color: #eaeaea;
+        }
+        .card h3 { margin-top: 0; color: #fff; }
+        .tips { color: #2ecc40; font-weight: bold; }
+        ul { color: #eaeaea; }
+        .risk {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ coin.name }} ({{ coin.symbol }})</h1>
+    <p>Preço atual: <b>{{ coin.currentPrice }}</b></p>
+    <p>Market Cap: <b>{{ coin.marketCap }}</b></p>
+    <p>Volume 24h: <b>{{ coin.volume24h }}</b></p>
+    <p class="risk" style="color: {{ 'red' if risk_score > 70 else ('orange' if risk_score > 30 else 'green') }};">Risco de Rug Pull: {{ risk_score }}%</p>
+    <div class="chart">{{ chart_html | safe }}</div>
+</body>
+</html>

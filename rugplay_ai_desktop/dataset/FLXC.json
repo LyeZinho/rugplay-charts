@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2025-07-17",
+    "coin": {
+      "id": 7299,
+      "name": "FelixCoin",
+      "symbol": "FLXC",
+      "icon": "coins/flxc.webp",
+      "currentPrice": 0.0004056,
+      "marketCap": 405595.21,
+      "volume24h": 24819.63,
+      "change24h": 40459.5215,
+      "poolCoinAmount": 49653925.5542846,
+      "poolBaseCurrencyAmount": 20139.39459645,
+      "circulatingSupply": 1000000000,
+      "initialSupply": 1000000000,
+      "isListed": true,
+      "createdAt": "2025-07-16T22:30:02.712Z",
+      "creatorId": 14983,
+      "creatorName": "LyeZinho",
+      "creatorUsername": "lyezinho",
+      "creatorBio": "Proffesional gyaat coint holder with 100 years of experience on Brainroot market.",
+      "creatorImage": "avatars/14983.webp",
+      "tradingUnlocksAt": "2025-07-16T22:31:02.718Z",
+      "isLocked": false
+    },
+    "candlestickData": [
+      {
+        "time": 1752624000,
+        "open": 1e-06,
+        "high": 0.00012203,
+        "low": 1e-06,
+        "close": 0.00012203
+      },
+      {
+        "time": 1752710400,
+        "open": 0.00012314,
+        "high": 0.0004056,
+        "low": 0.00012314,
+        "close": 0.0004056
+      }
+    ],
+    "volumeData": [
+      {
+        "time": 1752624000,
+        "volume": 10156.1784508
+      },
+      {
+        "time": 1752710400,
+        "volume": 15963.45268075
+      }
+    ],
+    "holders": [
+      {
+        "rank": 1,
+        "userId": 14983,
+        "username": "lyezinho",
+        "name": "LyeZinho",
+        "image": "avatars/14983.webp",
+        "quantity": 939021105.2036526,
+        "percentage": 93.90211052036527,
+        "liquidationValue": 10044.459961637971
+      },
+      {
+        "rank": 2,
+        "userId": 15037,
+        "username": "nasdaq",
+        "name": "NASDAQ",
+        "image": "avatars/15037.webp",
+        "quantity": 4231572.02775249,
+        "percentage": 0.423157202775249,
+        "liquidationValue": 1581.525691591949
+      },
+      {
+        "rank": 3,
+        "userId": 15038,
+        "username": "stuki",
+        "name": "Tsuki",
+        "image": "avatars/105573310929688391377.webp",
+        "quantity": 3667060.82700749,
+        "percentage": 0.366706082700749,
+        "liquidationValue": 1385.0528659799784
+      },
+      {
+        "rank": 4,
+        "userId": 15062,
+        "username": "femboygoongonngonn",
+        "name": "Femboy Collector",
+        "image": "avatars/15062.webp",
+        "quantity": 3426336.38730267,
+        "percentage": 0.34263363873026703,
+        "liquidationValue": 1299.9999999999964
+      }
+    ],
+    "poolInfo": {
+      "coinAmount": 49653925.5542846,
+      "baseCurrencyAmount": 20139.39459645,
+      "currentPrice": 0.0004056
+    }
+  }
+]

@@ -1,0 +1,548 @@
+
+    <html>
+    <head>
+        <title>Lista de Moedas - RugPlay</title>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <style>
+            body { font-family: Arial, sans-serif; background: #181a20; color: #eaeaea; }
+            table { border-collapse: collapse; width: 100%; background: #23262f; color: #eaeaea; }
+            th, td { border: 1px solid #333; padding: 8px; text-align: center; }
+            th { background: #222; color: #fff; }
+            img { width: 32px; height: 32px; }
+            .card {
+                background: #23262f;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+                padding: 24px;
+                margin: 24px auto;
+                max-width: 900px;
+                color: #eaeaea;
+            }
+            .card h3 { margin-top: 0; color: #fff; }
+            .tips { color: #2ecc40; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h2 style='color:#fff;'>Lista de Moedas</h2>
+        <div class="card">
+            <h3>Predições e Dicas de Investimento</h3>
+    <span class='tips'>Dica: JobX (JOBX) está em alta (+927161800.65%)! </span><span class='tips'>Dica: RugplayWrappedBTC (RPBTC) está em alta (+216003204.99%)! </span><span class='tips'>Dica: RugplayPlus (RPP) está em alta (+675.29%)! </span><br><br><b>Predições das top moedas:</b> <ul><li>Próximo preço estimado de <b>JobX</b>: <b>$85962919.03</b></li><li>Próximo preço estimado de <b>RugplayWrappedBTC</b>: <b>$4665742.78</b></li><li>Próximo preço estimado de <b>RugplayPlus</b>: <b>$968.92</b></li></ul><br><b>Predição geral do mercado:</b> $1812616.58
+        </div>
+        <div id="tree_map" style="width:100%;max-width:900px;height:500px;margin:auto;"></div>
+        <div id="growth_charts" style="width:100%;max-width:900px;margin:auto;"></div>
+        <table>
+            <tr>
+                <th>Ícone</th>
+                <th>Nome</th>
+                <th>Símbolo</th>
+                <th>Preço</th>
+                <th>Variação 24h</th>
+                <th>Market Cap</th>
+                <th>Volume 24h</th>
+            </tr>
+    
+            <tr>
+                <td><img src='https://rugplay.com/coins/art.webp' alt='ART'></td>
+                <td>ART</td>
+                <td>ART</td>
+                <td>$487.05</td>
+                <td>0.03</td>
+                <td>$487046023570.97</td>
+                <td>$10321.04</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/thehorizon.webp' alt='THEHORIZON'></td>
+                <td>HORIZONONTOP</td>
+                <td>THEHORIZON</td>
+                <td>$451.32</td>
+                <td>0.25</td>
+                <td>$451319084034.69</td>
+                <td>$134054.58</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/rpp.webp' alt='RPP'></td>
+                <td>RugplayPlus</td>
+                <td>RPP</td>
+                <td>$124.97</td>
+                <td>675.29</td>
+                <td>$124974985486.71</td>
+                <td>$13636376.87</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/rmb.webp' alt='RMB'></td>
+                <td>RamblerCOIN</td>
+                <td>RMB</td>
+                <td>$78.59</td>
+                <td>1.40</td>
+                <td>$78591937821.66</td>
+                <td>$75918.07</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/pr.png' alt='PR'></td>
+                <td>Prussia</td>
+                <td>PR</td>
+                <td>$41.23</td>
+                <td>1.72</td>
+                <td>$41229775253.77</td>
+                <td>$123085.80</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/catboi.jpg' alt='CATBOI'></td>
+                <td>catboi</td>
+                <td>CATBOI</td>
+                <td>$30.39</td>
+                <td>16.08</td>
+                <td>$30392766356.11</td>
+                <td>$996769.79</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/four.webp' alt='FOUR'></td>
+                <td>four</td>
+                <td>FOUR</td>
+                <td>$16.19</td>
+                <td>0.44</td>
+                <td>$16194085020.21</td>
+                <td>$14223.09</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/firecoin.webp' alt='FIRECOIN'></td>
+                <td>Fire</td>
+                <td>FIRECOIN</td>
+                <td>$10.96</td>
+                <td>18.56</td>
+                <td>$10959836386.80</td>
+                <td>$3514458.26</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/npl.png' alt='NPL'></td>
+                <td>Napoleon</td>
+                <td>NPL</td>
+                <td>$9.59</td>
+                <td>0.02</td>
+                <td>$9590426348.87</td>
+                <td>$1866.97</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/None' alt='JOBX'></td>
+                <td>JobX</td>
+                <td>JOBX</td>
+                <td>$9.27</td>
+                <td>927161800.65</td>
+                <td>$9271619006.47</td>
+                <td>$3045735.33</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/plt.webp' alt='PLT'></td>
+                <td>PlantatinV2</td>
+                <td>PLT</td>
+                <td>$6.97</td>
+                <td>0.15</td>
+                <td>$6973241445.85</td>
+                <td>$110820.21</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/None' alt='ELYTRO'></td>
+                <td>Elytro</td>
+                <td>ELYTRO</td>
+                <td>$5.14</td>
+                <td>0.11</td>
+                <td>$5136026412.89</td>
+                <td>$17384.29</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/kec.webp' alt='KEC'></td>
+                <td>KEVONZCOIN</td>
+                <td>KEC</td>
+                <td>$5.12</td>
+                <td>0.96</td>
+                <td>$5118345209.50</td>
+                <td>$28068.73</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/dior.webp' alt='DIOR'></td>
+                <td>ChristianDior</td>
+                <td>DIOR</td>
+                <td>$5.09</td>
+                <td>-7.09</td>
+                <td>$5093777242.80</td>
+                <td>$87583.76</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/rsc.jpg' alt='RSC'></td>
+                <td>rustcoin</td>
+                <td>RSC</td>
+                <td>$4.64</td>
+                <td>0.32</td>
+                <td>$4642509426.07</td>
+                <td>$32509.63</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/crypto.jpg' alt='CRYPTO'></td>
+                <td>Crypto</td>
+                <td>CRYPTO</td>
+                <td>$3.36</td>
+                <td>-6.54</td>
+                <td>$3362101706.55</td>
+                <td>$70972.76</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/mio.webp' alt='MIO'></td>
+                <td>mioclient</td>
+                <td>MIO</td>
+                <td>$2.44</td>
+                <td>-1.24</td>
+                <td>$2438553567.90</td>
+                <td>$10385.67</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/tcz.png' alt='TCZ'></td>
+                <td>TCZ</td>
+                <td>TCZ</td>
+                <td>$2.41</td>
+                <td>-0.74</td>
+                <td>$2407505218.14</td>
+                <td>$44551.51</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/prism.webp' alt='PRISM'></td>
+                <td>Prism</td>
+                <td>PRISM</td>
+                <td>$2.24</td>
+                <td>-0.13</td>
+                <td>$2241032021.61</td>
+                <td>$2600.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/rpbtc.webp' alt='RPBTC'></td>
+                <td>RugplayWrappedBTC</td>
+                <td>RPBTC</td>
+                <td>$2.16</td>
+                <td>216003204.99</td>
+                <td>$2160033049.88</td>
+                <td>$1716410.15</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/goonology.webp' alt='GOONOLOGY'></td>
+                <td>Goonology</td>
+                <td>GOONOLOGY</td>
+                <td>$2.11</td>
+                <td>0.00</td>
+                <td>$2110185510.87</td>
+                <td>$58718.55</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/friend.webp' alt='FRIEND'></td>
+                <td>Friend</td>
+                <td>FRIEND</td>
+                <td>$2.03</td>
+                <td>0.00</td>
+                <td>$2031987178.89</td>
+                <td>$0.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/joker.webp' alt='JOKER'></td>
+                <td>AncientJoker</td>
+                <td>JOKER</td>
+                <td>$1.77</td>
+                <td>-0.15</td>
+                <td>$1774706993.98</td>
+                <td>$2001.77</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/dei.webp' alt='DEI'></td>
+                <td>DoofenshmirtzEvilIncorporated</td>
+                <td>DEI</td>
+                <td>$1.54</td>
+                <td>-5.98</td>
+                <td>$1541960070.67</td>
+                <td>$195892.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/ssl.png' alt='SSL'></td>
+                <td>SSL</td>
+                <td>SSL</td>
+                <td>$1.50</td>
+                <td>-2.42</td>
+                <td>$1500662621.31</td>
+                <td>$2600.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/ttc.png' alt='TTC'></td>
+                <td>Turtlecoin</td>
+                <td>TTC</td>
+                <td>$1.49</td>
+                <td>-0.58</td>
+                <td>$1488105065.42</td>
+                <td>$714994.14</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/rkk.webp' alt='RKK'></td>
+                <td>Rikka</td>
+                <td>RKK</td>
+                <td>$1.21</td>
+                <td>-1.80</td>
+                <td>$1206040137.57</td>
+                <td>$2349.86</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/brt.webp' alt='BRT'></td>
+                <td>Brainrot</td>
+                <td>BRT</td>
+                <td>$1.16</td>
+                <td>-0.59</td>
+                <td>$1159037777.42</td>
+                <td>$4385.96</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/lotr.webp' alt='LOTR'></td>
+                <td>TheOneCoin</td>
+                <td>LOTR</td>
+                <td>$1.08</td>
+                <td>-0.56</td>
+                <td>$1078931650.26</td>
+                <td>$50062.10</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/erl.webp' alt='ERL'></td>
+                <td>Emerald</td>
+                <td>ERL</td>
+                <td>$1.05</td>
+                <td>-1.20</td>
+                <td>$1054365755.94</td>
+                <td>$15873.38</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/storage.webp' alt='STORAGE'></td>
+                <td>MoneyStorage</td>
+                <td>STORAGE</td>
+                <td>$0.87</td>
+                <td>-0.01</td>
+                <td>$865516656.69</td>
+                <td>$23.48</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/knt.webp' alt='KNT'></td>
+                <td>Konata Coin</td>
+                <td>KNT</td>
+                <td>$0.86</td>
+                <td>-0.27</td>
+                <td>$864707820.91</td>
+                <td>$7132.11</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/b00b.webp' alt='B00B'></td>
+                <td>BOOBs</td>
+                <td>B00B</td>
+                <td>$0.85</td>
+                <td>0.21</td>
+                <td>$848783135.64</td>
+                <td>$73248.96</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/buddy.webp' alt='BUDDY'></td>
+                <td>BiggestBuddy</td>
+                <td>BUDDY</td>
+                <td>$0.82</td>
+                <td>-0.01</td>
+                <td>$819293448.25</td>
+                <td>$110.66</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/voda.jpg' alt='VODA'></td>
+                <td>vanyacoin</td>
+                <td>VODA</td>
+                <td>$0.76</td>
+                <td>6.01</td>
+                <td>$756132649.97</td>
+                <td>$100.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/nvda.png' alt='NVDA'></td>
+                <td>NVIDIA</td>
+                <td>NVDA</td>
+                <td>$0.75</td>
+                <td>0.32</td>
+                <td>$748171688.19</td>
+                <td>$3396162.78</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/None' alt='20MC'></td>
+                <td>20MilCoin</td>
+                <td>20MC</td>
+                <td>$0.72</td>
+                <td>0.00</td>
+                <td>$723697438.35</td>
+                <td>$0.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/sora.jpeg' alt='SORA'></td>
+                <td>Sora</td>
+                <td>SORA</td>
+                <td>$0.72</td>
+                <td>-2.15</td>
+                <td>$718964448.73</td>
+                <td>$86766.15</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/nxt.png' alt='NXT'></td>
+                <td>Next</td>
+                <td>NXT</td>
+                <td>$0.62</td>
+                <td>-0.07</td>
+                <td>$616329866.89</td>
+                <td>$30261.14</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/cabbage.webp' alt='CABBAGE'></td>
+                <td>CabbageCorp</td>
+                <td>CABBAGE</td>
+                <td>$0.52</td>
+                <td>-35.42</td>
+                <td>$521788843.87</td>
+                <td>$449269.77</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/snug.png' alt='SNUG'></td>
+                <td>SnugOS</td>
+                <td>SNUG</td>
+                <td>$0.49</td>
+                <td>0.51</td>
+                <td>$493875644.57</td>
+                <td>$15000.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/amd.png' alt='AMD'></td>
+                <td>AMD</td>
+                <td>AMD</td>
+                <td>$0.48</td>
+                <td>0.59</td>
+                <td>$475401562.70</td>
+                <td>$36130.23</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/tomato.jpeg' alt='TOMATO'></td>
+                <td>Gemato</td>
+                <td>TOMATO</td>
+                <td>$0.42</td>
+                <td>0.86</td>
+                <td>$417584778.83</td>
+                <td>$13239.95</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/omni.png' alt='OMNI'></td>
+                <td>omnifla</td>
+                <td>OMNI</td>
+                <td>$0.38</td>
+                <td>-0.61</td>
+                <td>$377364715.64</td>
+                <td>$36497.13</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/msft.png' alt='MSFT'></td>
+                <td>Microsoft</td>
+                <td>MSFT</td>
+                <td>$0.37</td>
+                <td>3.73</td>
+                <td>$372082498.70</td>
+                <td>$54919.46</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/stableee.webp' alt='STABLEEE'></td>
+                <td>Stablecoin</td>
+                <td>STABLEEE</td>
+                <td>$0.33</td>
+                <td>1.93</td>
+                <td>$332861357.33</td>
+                <td>$48788.76</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/deu.webp' alt='DEU'></td>
+                <td>Deutschland</td>
+                <td>DEU</td>
+                <td>$0.33</td>
+                <td>0.00</td>
+                <td>$325640897.46</td>
+                <td>$0.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/yki.png' alt='YKI'></td>
+                <td>YukiCoin</td>
+                <td>YKI</td>
+                <td>$0.32</td>
+                <td>-1.94</td>
+                <td>$323299776.10</td>
+                <td>$6000.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/wif.png' alt='WIF'></td>
+                <td>DogWifHat</td>
+                <td>WIF</td>
+                <td>$0.32</td>
+                <td>2.11</td>
+                <td>$320003601.99</td>
+                <td>$1600.00</td>
+            </tr>
+        
+            <tr>
+                <td><img src='https://rugplay.com/coins/slk.webp' alt='SLK'></td>
+                <td>SILKROAD</td>
+                <td>SLK</td>
+                <td>$0.28</td>
+                <td>0.42</td>
+                <td>$279065741.45</td>
+                <td>$9884.61</td>
+            </tr>
+        
+        </table>
+    <div>                            <div id="tree_map" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("tree_map")) {                    Plotly.newPlot(                        "tree_map",                        [{"customdata":["ART\u003cbr\u003eMarket Cap: $487046023570.97","THEHORIZON\u003cbr\u003eMarket Cap: $451319084034.69","RPP\u003cbr\u003eMarket Cap: $124974985486.71","RMB\u003cbr\u003eMarket Cap: $78591937821.66","PR\u003cbr\u003eMarket Cap: $41229775253.77","CATBOI\u003cbr\u003eMarket Cap: $30392766356.11","FOUR\u003cbr\u003eMarket Cap: $16194085020.21","FIRECOIN\u003cbr\u003eMarket Cap: $10959836386.80","NPL\u003cbr\u003eMarket Cap: $9590426348.87","JOBX\u003cbr\u003eMarket Cap: $9271619006.47","PLT\u003cbr\u003eMarket Cap: $6973241445.85","ELYTRO\u003cbr\u003eMarket Cap: $5136026412.89","KEC\u003cbr\u003eMarket Cap: $5118345209.50","DIOR\u003cbr\u003eMarket Cap: $5093777242.80","RSC\u003cbr\u003eMarket Cap: $4642509426.07","CRYPTO\u003cbr\u003eMarket Cap: $3362101706.55","MIO\u003cbr\u003eMarket Cap: $2438553567.90","TCZ\u003cbr\u003eMarket Cap: $2407505218.14","PRISM\u003cbr\u003eMarket Cap: $2241032021.61","RPBTC\u003cbr\u003eMarket Cap: $2160033049.88","GOONOLOGY\u003cbr\u003eMarket Cap: $2110185510.87","FRIEND\u003cbr\u003eMarket Cap: $2031987178.89","JOKER\u003cbr\u003eMarket Cap: $1774706993.98","DEI\u003cbr\u003eMarket Cap: $1541960070.67","SSL\u003cbr\u003eMarket Cap: $1500662621.31","TTC\u003cbr\u003eMarket Cap: $1488105065.42","RKK\u003cbr\u003eMarket Cap: $1206040137.57","BRT\u003cbr\u003eMarket Cap: $1159037777.42","LOTR\u003cbr\u003eMarket Cap: $1078931650.26","ERL\u003cbr\u003eMarket Cap: $1054365755.94","STORAGE\u003cbr\u003eMarket Cap: $865516656.69","KNT\u003cbr\u003eMarket Cap: $864707820.91","B00B\u003cbr\u003eMarket Cap: $848783135.64","BUDDY\u003cbr\u003eMarket Cap: $819293448.25","VODA\u003cbr\u003eMarket Cap: $756132649.97","NVDA\u003cbr\u003eMarket Cap: $748171688.19","20MC\u003cbr\u003eMarket Cap: $723697438.35","SORA\u003cbr\u003eMarket Cap: $718964448.73","NXT\u003cbr\u003eMarket Cap: $616329866.89","CABBAGE\u003cbr\u003eMarket Cap: $521788843.87","SNUG\u003cbr\u003eMarket Cap: $493875644.57","AMD\u003cbr\u003eMarket Cap: $475401562.70","TOMATO\u003cbr\u003eMarket Cap: $417584778.83","OMNI\u003cbr\u003eMarket Cap: $377364715.64","MSFT\u003cbr\u003eMarket Cap: $372082498.70","STABLEEE\u003cbr\u003eMarket Cap: $332861357.33","DEU\u003cbr\u003eMarket Cap: $325640897.46","YKI\u003cbr\u003eMarket Cap: $323299776.10","WIF\u003cbr\u003eMarket Cap: $320003601.99","SLK\u003cbr\u003eMarket Cap: $279065741.45"],"hovertemplate":"%{label}\u003cbr\u003e%{customdata}\u003cextra\u003e\u003c\u002fextra\u003e","labels":["ART","HORIZONONTOP","RugplayPlus","RamblerCOIN","Prussia","catboi","four","Fire","Napoleon","JobX","PlantatinV2","Elytro","KEVONZCOIN","ChristianDior","rustcoin","Crypto","mioclient","TCZ","Prism","RugplayWrappedBTC","Goonology","Friend","AncientJoker","DoofenshmirtzEvilIncorporated","SSL","Turtlecoin","Rikka","Brainrot","TheOneCoin","Emerald","MoneyStorage","Konata Coin","BOOBs","BiggestBuddy","vanyacoin","NVIDIA","20MilCoin","Sora","Next","CabbageCorp","SnugOS","AMD","Gemato","omnifla","Microsoft","Stablecoin","Deutschland","YukiCoin","DogWifHat","SILKROAD"],"marker":{"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"values":[487046023570.97,451319084034.69,124974985486.71,78591937821.66,41229775253.77,30392766356.11,16194085020.21,10959836386.8,9590426348.87,9271619006.47,6973241445.85,5136026412.89,5118345209.5,5093777242.8,4642509426.07,3362101706.55,2438553567.9,2407505218.14,2241032021.61,2160033049.88,2110185510.87,2031987178.89,1774706993.98,1541960070.67,1500662621.31,1488105065.42,1206040137.57,1159037777.42,1078931650.26,1054365755.94,865516656.69,864707820.91,848783135.64,819293448.25,756132649.97,748171688.19,723697438.35,718964448.73,616329866.89,521788843.87,493875644.57,475401562.7,417584778.83,377364715.64,372082498.7,332861357.33,325640897.46,323299776.1,320003601.99,279065741.45],"type":"treemap"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"margin":{"t":0,"l":0,"r":0,"b":0},"font":{"color":"#eaeaea"},"paper_bgcolor":"#181a20"},                        {"responsive": true}                    )                };            </script>        </div><div><div>                            <div id="growth_line_chart" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("growth_line_chart")) {                    Plotly.newPlot(                        "growth_line_chart",                        [{"mode":"lines+markers","name":"ART","x":["Ontem","Hoje"],"y":[486.905794701126,487.04602357],"type":"scatter"},{"mode":"lines+markers","name":"HORIZONONTOP","x":["Ontem","Hoje"],"y":[450.2111144772714,451.31908403],"type":"scatter"},{"mode":"lines+markers","name":"RugplayPlus","x":["Ontem","Hoje"],"y":[16.11972900149505,124.97498549],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"font":{"color":"#eaeaea"},"title":{"text":"Crescimento das Top 3 Moedas (24h)"},"xaxis":{"title":{"text":"Dia"}},"yaxis":{"title":{"text":"Pre\u00e7o"}},"paper_bgcolor":"#181a20","plot_bgcolor":"#23262f"},                        {"responsive": true}                    )                };            </script>        </div></div><div><div>                            <div id="growth_bar_chart" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("growth_bar_chart")) {                    Plotly.newPlot(                        "growth_bar_chart",                        [{"marker":{"color":"#2ecc40"},"x":["JobX","RugplayWrappedBTC","RugplayPlus","Fire","catboi"],"y":[927161800.6466,216003204.9883,675.2921,18.5606,16.0776],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"font":{"color":"#eaeaea"},"title":{"text":"Top 5 Crescimentos Percentuais (24h)"},"xaxis":{"title":{"text":"Moeda"}},"yaxis":{"title":{"text":"% Crescimento 24h"}},"paper_bgcolor":"#181a20","plot_bgcolor":"#23262f"},                        {"responsive": true}                    )                };            </script>        </div></div>
+    </body>
+    </html>
+    
